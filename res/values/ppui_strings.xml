@@ -30,5 +30,12 @@
     <string name="show_network_traffic_down">Downlink</string>
     <string name="show_network_traffic_all">Uplink and Downlink</string>
     <string name="network_traffic_state_title">Show net activity in statusbar</string>
-    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>					
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+	
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Default</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    
 </resources>
