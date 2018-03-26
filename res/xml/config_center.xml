@@ -18,14 +18,20 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/config_center_title" >
 
-<!--    <PreferenceCategory
+    <PreferenceCategory
         android:key="statusbar_qs_key"
-        android:title="@string/statusbar_qs_keys_title" > -->
+        android:title="@string/statusbar_qs_keys_title" >
 
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="qs_blur"
     android:title="@string/blur_quicksettings"
     android:summary="@string/blur_quicksettings_subtitle"
+    android:defaultValue="true" />
+
+<com.ppui.config.center.preferences.SystemSettingSwitchPreference
+    android:key="lockscreen_show_status_bar"
+    android:title="@string/lockscreen_show_status_bar_title"
+    android:summary="@string/lockscreen_show_status_bar_summary"
     android:defaultValue="true" />
 
     </PreferenceCategory>

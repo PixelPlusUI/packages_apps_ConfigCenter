@@ -52,4 +52,8 @@
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Status bar/QS</string>
 
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Statusbar</string>
+    <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
+
 </resources>
