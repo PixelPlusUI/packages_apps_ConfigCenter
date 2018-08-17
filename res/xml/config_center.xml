@@ -22,6 +22,11 @@
     android:title="@string/traffic_title"
     android:summary="@string/traffic_title_summary" />
 
+<Preference
+    android:fragment="com.ppui.config.center.fragments.lock_screen.LockScreen"
+    android:icon="@drawable/ic_lock_screen"
+    android:title="@string/lock_screen_category" />
+
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="qs_blur"
     android:title="@string/blur_quicksettings"
