@@ -19,7 +19,7 @@ package com.ppui.config.center.fragments.lock_screen;
 import android.os.Bundle;
 
 import com.android.settings.R;
-import com.android.settings.carbon.CustomSettingsPreferenceFragment;
+import com.ppui.config.center.preferences.CustomSettingsPreferenceFragment;
 
 public class LockScreen extends CustomSettingsPreferenceFragment {
     private static final String TAG = "LockScreen";
@@ -29,7 +29,6 @@ public class LockScreen extends CustomSettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.lock_screen);
         addCustomPreference(findPreference(STATUS_BAR_LOCKED_ON_SECURE_KEYGUARD), SECURE_TWO_STATE, STATE_OFF);
     }
 }
