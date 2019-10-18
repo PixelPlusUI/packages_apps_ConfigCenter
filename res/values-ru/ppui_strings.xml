@@ -43,6 +43,7 @@
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Статусбар/Быстрые настройки</string>
     <string name="navbar_keys_cg_title">Панель навигации</string>
+    <string name="dt_keys_cg_title">Двойное нажатие</string>
 
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Статусбар</string>
@@ -79,5 +80,9 @@
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должно быть в дата формате: ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите текст</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Нажмите два раза для сна на экране блокировки</string>
+    <string name="double_tap_sleep_lockscreen_summary">Нажмите в любом месте на экране блокировки, чтобы выключить экран</string>
 
 </resources>

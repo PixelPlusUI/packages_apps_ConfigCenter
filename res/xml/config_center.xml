@@ -63,5 +63,16 @@
         android:title="@string/navigation_bar_invert_layout_title"
         android:defaultValue="false" />
     </PreferenceCategory>
- 
+
+    <PreferenceCategory
+        android:key="dt_key_cg"
+        android:title="@string/dt_keys_cg_title" > 
+
+    <com.ppui.config.center.preferences.SystemSettingSwitchPreference
+            android:key="double_tap_sleep_lockscreen"
+            android:title="@string/double_tap_sleep_lockscreen_title"
+            android:summary="@string/double_tap_sleep_lockscreen_summary"
+            android:defaultValue="false" />
+
+    </PreferenceCategory>
 </PreferenceScreen>
