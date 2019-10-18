@@ -84,5 +84,7 @@
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_lockscreen_title">Нажмите два раза для сна на экране блокировки</string>
     <string name="double_tap_sleep_lockscreen_summary">Нажмите в любом месте на экране блокировки, чтобы выключить экран</string>
+    <string name="double_tap_sleep_gesture_title">Нажмите два раза для сна на статусбаре</string>
+    <string name="double_tap_sleep_gesture_summary">Нажмите на статусбаре, чтобы выключить экран</string>
 
 </resources>

@@ -84,5 +84,7 @@
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_lockscreen_title">Натисніть два рази на екрані блокування, щоб потрапити у режим сну</string>
     <string name="double_tap_sleep_lockscreen_summary">Натисніть у любому місці на екрані блокування, щоб вимкнути екран</string>
+    <string name="double_tap_sleep_gesture_title">Натисніть два рази на статусбарі, щоб потрапити у режим сну</string>
+    <string name="double_tap_sleep_gesture_summary">Натисніть на статусбар, щоб вимкнути екран</string>
 
 </resources>
