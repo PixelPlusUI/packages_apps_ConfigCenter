@@ -37,6 +37,7 @@ import com.android.settings.SettingsPreferenceFragment;
 import android.widget.Toast;
 
 import com.ppui.config.center.preferences.CustomSeekBarPreference;
+import com.ppui.config.center.preferences.SystemSettingMasterSwitchPreference;
 
 public class ConfigCenter extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
@@ -45,12 +46,14 @@ public class ConfigCenter extends SettingsPreferenceFragment
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
     private static final String QS_BACKGROUND_BLUR_ALPHA = "qs_blur_alpha";
     private static final String QS_BACKGROUND_BLUR_INTENSITY = "qs_blur_intensity";
+    private static final String GAMING_MODE_ENABLED = "gaming_mode_enabled";
 
     private ContentResolver mResolver;
     private ListPreference mTorchPowerButton;
 
     private CustomSeekBarPreference mQSBlurAlpha;
     private CustomSeekBarPreference mQSBlurIntensity;
+    private SystemSettingMasterSwitchPreference mGamingMode;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -84,6 +87,11 @@ public class ConfigCenter extends SettingsPreferenceFragment
                 Settings.System.QS_BACKGROUND_BLUR_INTENSITY, 30);
         mQSBlurIntensity.setValue(qsBlurIntensity);
         mQSBlurIntensity.setOnPreferenceChangeListener(this);
+
+        mGamingMode = (SystemSettingMasterSwitchPreference) findPreference(GAMING_MODE_ENABLED);
+        mGamingMode.setChecked((Settings.System.getInt(getActivity().getContentResolver(),
+                Settings.System.GAMING_MODE_ENABLED, 0) == 1));
+        mGamingMode.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -109,11 +117,16 @@ public class ConfigCenter extends SettingsPreferenceFragment
         } else if (preference == mQSBlurAlpha) {
             int value = (Integer) newValue;
             Settings.System.putInt(mResolver, Settings.System.QS_BACKGROUND_BLUR_ALPHA, value);
-                return true;
+            return true;
         } else if (preference == mQSBlurIntensity) {
             int value = (Integer) newValue;
             Settings.System.putInt(getContentResolver(),
                     Settings.System.QS_BACKGROUND_BLUR_INTENSITY, value);
+            return true;
+	} else if (preference == mGamingMode) {
+            boolean value = (Boolean) newValue;
+            Settings.System.putInt(getActivity().getContentResolver(),
+                    Settings.System.GAMING_MODE_ENABLED, value ? 1 : 0);
             return true;
 	}
         return false;

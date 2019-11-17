@@ -72,6 +72,13 @@
             android:summary="@string/notification_headers_summary"
             android:defaultValue="true" />
 
+    <com.ppui.config.center.preferences.SystemSettingMasterSwitchPreference
+        android:key="gaming_mode_enabled"
+        android:fragment="com.ppui.config.center.fragments.GamingMode"
+        android:title="@string/gaming_mode_title"
+        android:summary="@string/gaming_mode_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
