@@ -47,4 +47,15 @@
             android:fragment="com.ppui.config.center.fragments.PowerMenuActions" />
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="navbar_key_cg"
+	android:title="@string/navbar_keys_cg_title" >
+
+    <com.ppui.config.center.preferences.SecureSettingMasterSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/navigation_bar_invert_layout_title"
+        android:defaultValue="false" />
+    </PreferenceCategory>
+ 
 </PreferenceScreen>
