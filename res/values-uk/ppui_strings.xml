@@ -33,6 +33,7 @@
     <string name="power_menu_title">Меню живлення</string>
     <string name="power_menu_subtitle">Налаштувати меню живлення</string>
     <string name="power_menu_screenshot_title">Знімок екрану</string>
+    <string name="power_menu_screenrecord_title">Зйомка екрану</string>
     <string name="power_menu_airplane_title">Режим польоту</string>
     <string name="power_menu_lockdown_title">Блокування</string>
 
