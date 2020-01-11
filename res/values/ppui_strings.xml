@@ -40,5 +40,19 @@
 
     <!-- QS blur -->
     <string name="blur_quicksettings">Blur behind quick settings</string>
-    <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>    
+    <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>
+	
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Power button</string>
+    <string name="power_menu_title">Power menu</string>
+    <string name="power_menu_subtitle">Customize power menu</string>
+    <string name="power_menu_screenshot_title">Screenshot</string>
+    <string name="power_menu_screenshot_summary">Long-press for screen recorder</string>
+    <string name="power_menu_airplane_title">Airplane mode</string>
+    <string name="power_menu_lockdown_title">Lockdown</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Advanced restart</string>
+    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    
 </resources>
