@@ -37,5 +37,8 @@
     <string name="custom_seekbar_default_value">Default</string>
     <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
     <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-    
+
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Blur behind quick settings</string>
+    <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>    
 </resources>
