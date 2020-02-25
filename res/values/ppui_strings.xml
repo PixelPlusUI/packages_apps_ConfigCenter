@@ -54,5 +54,10 @@
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Advanced restart</string>
     <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+
+    <!-- Quick Settings -->
+    <string name="qs_panel_title">QS Panel</string>
+    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
+    <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>
     
 </resources>
