@@ -19,7 +19,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- App Title -->
-    <string name="config_center_title">PPUI Settings Center</string>
+    <string name="config_center_title">The Pixelizer</string>
 
     <!-- Network traffic -->
     <string name="traffic_title">Traffic indicators</string>
