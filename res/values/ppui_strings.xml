@@ -48,4 +48,8 @@
     <string name="qs_panel_title">QS Panel</string>
     <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
     <string name="lockscreen_qs_disabled_summary">Disable expanding quick settings on secure lock screens</string>  
+
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">Status bar/QS</string>
+
 </resources>
