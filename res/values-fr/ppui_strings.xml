@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+     Copyright (C) 2020 PixelPlusUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Le Pixelizer</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_default_value">Par défaut</string>
+    <string name="custom_seekbar_default_value_to_set">Valeur par défaut: <xliff:g id="v">%s</xliff:g>\nAppui long pour régler</string>
+    <string name="custom_seekbar_default_value_is_set">Valeur par défaut est définie</string>
+
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Flou derrière les réglages rapides</string>
+    <string name="blur_quicksettings_subtitle">"Flou d'arrière-plan derrière QS"</string>
+	
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Bouton marche/arrêt</string>
+    <string name="power_menu_title">"Menu d'alimentation"</string>
+    <string name="power_menu_subtitle">"Personnaliser le menu d'alimentation"</string>
+    <string name="power_menu_screenshot_title">"Capture d'écran"</string>
+    <string name="power_menu_screenshot_summary">"Appui long pour l'enregistreur d'écran"</string>
+    <string name="power_menu_airplane_title">Mode avion</string>
+    <string name="power_menu_lockdown_title">Verrouillage</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Redémarrage avancé</string>
+    <string name="advanced_reboot_summary">"Une fois déverrouillé, incluez des options dans le menu d'alimentation pour redémarrer dans la récupération ou le chargeur de démarrage"</string>
+
+    <!-- Quick Settings -->
+    <string name="qs_panel_title">Panneau QS</string>
+    <string name="lockscreen_qs_disabled_title">"Désactiver les paramètres rapides lorsqu'il est verrouillé"</string>
+    <string name="lockscreen_qs_disabled_summary">"Désactiver l'extension des paramètres rapides sur les écrans de verrouillage sécurisés"</string>  
+
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">"Barre d'état / QS"</string>
+    <string name="navbar_keys_cg_title">Barre de navigation</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">"Barre d'état"</string>
+    <string name="lockscreen_show_status_bar_summary">"Afficher la barre d'état sur l'écran de verrouillage"</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_invert_layout_title">Inverser la disposition</string>
+
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">"Paramètres d'horloge"</string>
+    <string name="clock_style_category_summary">Barre d'état de l'horloge du tuner</string>
+    <string name="status_bar_clock_title">"Paramètres d'horloge"</string>
+    <string name="status_bar_clock_show">"Afficher l'horloge et la date"</string>
+    <string name="status_bar_clock_style_title">"Style d'horloge"</string>
+    <string name="status_bar_clock_style_right">Droite</string>
+    <string name="status_bar_clock_style_center">Centre</string>
+    <string name="status_bar_clock_style_left">Gauche</string>
+    <string name="status_bar_am_pm_title">Style AM/PM</string>
+    <string name="status_bar_am_pm_info">"L'horloge 24 heures est activée"</string>
+    <string name="status_bar_am_pm_normal">Ordinaire</string>
+    <string name="status_bar_am_pm_small">Petite</string>
+    <string name="status_bar_am_pm_hidden">Masqué (par défaut)</string>
+    <string name="clock_seconds_display">Afficher les secondes</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">"Afficher la date personnalisée avant l'horloge"</string>
+    <string name="clock_date_display_none">Ne plus afficher</string>
+    <string name="clock_date_display_small">Taille de police petite</string>
+    <string name="clock_date_display_normal">Taille de police normal</string>
+    <string name="clock_date_style">Style de date</string>
+    <string name="clock_date_style_normal">Ordinaire</string>
+    <string name="clock_date_style_lowercase">Minuscule</string>
+    <string name="clock_date_style_uppercase">Majuscule</string>
+    <string name="clock_date_format_custom">Format java personnalisé</string>
+    <string name="clock_date_format">Format de date</string>
+    <string name="clock_date_string_edittext_title">La date doit être au format par exemple. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Entrez une chaîne</string>
+
+</resources>
