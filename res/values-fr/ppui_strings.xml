@@ -35,18 +35,12 @@
     <string name="power_menu_title">"Menu d'alimentation"</string>
     <string name="power_menu_subtitle">"Personnaliser le menu d'alimentation"</string>
     <string name="power_menu_screenshot_title">"Capture d'écran"</string>
-    <string name="power_menu_screenshot_summary">"Appui long pour l'enregistreur d'écran"</string>
     <string name="power_menu_airplane_title">Mode avion</string>
     <string name="power_menu_lockdown_title">Verrouillage</string>
 
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Redémarrage avancé</string>
     <string name="advanced_reboot_summary">"Une fois déverrouillé, incluez des options dans le menu d'alimentation pour redémarrer dans la récupération ou le chargeur de démarrage"</string>
-
-    <!-- Quick Settings -->
-    <string name="qs_panel_title">Panneau QS</string>
-    <string name="lockscreen_qs_disabled_title">"Désactiver les paramètres rapides lorsqu'il est verrouillé"</string>
-    <string name="lockscreen_qs_disabled_summary">"Désactiver l'extension des paramètres rapides sur les écrans de verrouillage sécurisés"</string>  
 
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">"Barre d'état / QS"</string>
