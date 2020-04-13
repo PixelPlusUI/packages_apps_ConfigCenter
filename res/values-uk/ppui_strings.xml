@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+     Copyright (C) 2020 PixelPlusUI
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Пікселайзер</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Число: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">За замовчуванням</string>
+    <string name="custom_seekbar_default_value_to_set">Значення за замовчуванням: <xliff:g id="v">%s</xliff:g>\nЗатримайте, щоб виставити</string>
+    <string name="custom_seekbar_default_value_is_set">Значення за замовчуванням виставлено</string>
+
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Розмиття за швидкими налаштуваннями</string>
+    <string name="blur_quicksettings_subtitle">Розмиття фону за панеллю швидких налаштувань</string>
+	
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Кнопка живлення</string>
+    <string name="power_menu_title">Меню живлення</string>
+    <string name="power_menu_subtitle">Налаштувати меню живлення</string>
+    <string name="power_menu_screenshot_title">Знімок екрану</string>
+    <string name="power_menu_airplane_title">Режим польоту</string>
+    <string name="power_menu_lockdown_title">Блокування</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Розширене перезавантаженя</string>
+    <string name="advanced_reboot_summary">Опції для перезавантаження у фастбут, рекавері і т.д.</string>
+
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">Статусбар/Швидкі налаштування</string>
+    <string name="navbar_keys_cg_title">Панель навігації</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Статусбар</string>
+    <string name="lockscreen_show_status_bar_summary">Відібражати статусбар на екрані блокування</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_invert_layout_title">Інвертувати кнопки навігації</string>
+
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Налаштування годинника</string>
+    <string name="clock_style_category_summary">Налаштування годинника у статусбарі</string>
+    <string name="status_bar_clock_title">Налаштування годинника</string>
+    <string name="status_bar_clock_show">Відібражати годинник й дату</string>
+    <string name="status_bar_clock_style_title">Стиль годиннику</string>
+    <string name="status_bar_clock_style_right">Справа</string>
+    <string name="status_bar_clock_style_center">По центру</string>
+    <string name="status_bar_clock_style_left">Зліва</string>
+    <string name="status_bar_am_pm_title">AM/PM стиль</string>
+    <string name="status_bar_am_pm_info">24-годинний годинник включены</string>
+    <string name="status_bar_am_pm_normal">Нормальне</string>
+    <string name="status_bar_am_pm_small">Маленьке</string>
+    <string name="status_bar_am_pm_hidden">Сховано (за замовчуванням)</string>
+    <string name="clock_seconds_display">Відібражати секунди</string>
+    <string name="clock_date_display">Дата</string>
+    <string name="clock_date_display_summary">Відібражати кастомну дату</string>
+    <string name="clock_date_display_none">Не відібражати</string>
+    <string name="clock_date_display_small">Маленький шрифт</string>
+    <string name="clock_date_display_normal">Нормальний шрифт</string>
+    <string name="clock_date_style">Стиль дати</string>
+    <string name="clock_date_style_normal">Нормальний</string>
+    <string name="clock_date_style_lowercase">Нижній регістр</string>
+    <string name="clock_date_style_uppercase">Верхній регістр</string>
+    <string name="clock_date_format_custom">Свій java формат</string>
+    <string name="clock_date_format">Формат дати</string>
+    <string name="clock_date_string_edittext_title">Потрібно бути в дата форматі: ММ/дд/рр</string>
+    <string name="clock_date_string_edittext_summary">Введіть текст</string>
+
+</resources>
