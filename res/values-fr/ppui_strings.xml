@@ -55,7 +55,7 @@
 
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">"Paramètres d'horloge"</string>
-    <string name="clock_style_category_summary">Barre d'état de l'horloge du tuner</string>
+    <string name="clock_style_category_summary">"Barre d'état de l'horloge du tuner"</string>
     <string name="status_bar_clock_title">"Paramètres d'horloge"</string>
     <string name="status_bar_clock_show">"Afficher l'horloge et la date"</string>
     <string name="status_bar_clock_style_title">"Style d'horloge"</string>
