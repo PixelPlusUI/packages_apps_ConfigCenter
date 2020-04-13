@@ -26,7 +26,6 @@
     <CheckBoxPreference
         android:key="screenshot"
         android:title="@string/power_menu_screenshot_title"
-        android:summary="@string/power_menu_screenshot_summary"
         android:defaultValue="false" />
 
     <CheckBoxPreference
