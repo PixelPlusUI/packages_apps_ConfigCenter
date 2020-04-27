@@ -27,16 +27,29 @@ import android.content.res.Configuration;
 import android.os.Bundle;
 import android.view.Surface;
 import androidx.preference.Preference;
+import androidx.preference.PreferenceCategory;
+import androidx.preference.PreferenceScreen;
+
+import com.ppui.config.center.preferences.Utils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
 public class ConfigCenter extends SettingsPreferenceFragment {
 
+    private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.config_center);
+
+        PreferenceScreen prefScreen = getPreferenceScreen();
+
+        PreferenceCategory incallVibCategory = (PreferenceCategory) findPreference(INCALL_VIB_OPTIONS);
+        if (!Utils.isVoiceCapable(getActivity())) {
+            prefScreen.removePreference(incallVibCategory);
+        }
     }
 
     @Override

@@ -88,4 +88,10 @@
     <string name="double_tap_sleep_gesture_title">Натисніть два рази на статусбарі, щоб потрапити у режим сну</string>
     <string name="double_tap_sleep_gesture_summary">Натисніть на статусбар, щоб вимкнути екран</string>
 
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Налаштування вібрації вхідного дзвінка</string>
+    <string name="incall_vibrate_connect_title">Вібрація при підключенні</string>
+    <string name="incall_vibrate_call_wait_title">Вібрація при очікуванні</string>
+    <string name="incall_vibrate_disconnect_title">Вібрація при відключенні</string>
+
 </resources>
