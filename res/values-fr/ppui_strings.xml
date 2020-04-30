@@ -82,4 +82,16 @@
     <string name="clock_date_string_edittext_title">La date doit être au format par exemple. MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Entrez une chaîne</string>
 
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">"Appuyez deux fois sur l'écran de verrouillage pour mettre l'appareil en veille"</string>
+    <string name="double_tap_sleep_lockscreen_summary">"Appuyez deux fois n'importe où sur l'écran de verrouillage pour mettre le téléphone en veille"</string>
+    <string name="double_tap_sleep_gesture_title">"Appuyez deux fois sur la barre d'état pour mettre en veille"</string>
+    <string name="double_tap_sleep_gesture_summary">"Appuyez deux fois sur la barre d'état pour mettre l'appareil en veille"</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">"Options de vibration en cours d'appel"</string>
+    <string name="incall_vibrate_connect_title">Vibrer à la connexion</string>
+    <string name="incall_vibrate_call_wait_title">"Vibrer en attente d'appel"</string>
+    <string name="incall_vibrate_disconnect_title">Vibrer à la déconnexion</string>
+
 </resources>
