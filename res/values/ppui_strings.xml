@@ -47,7 +47,7 @@
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Status bar/QS</string>
     <string name="navbar_keys_cg_title">Navigation Bar</string>
-    <string name="dt_keys_cg_title">Double Tap</string>
+    <string name="dt_keys_cg_title">Gestures</string>
 
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Statusbar</string>
@@ -96,5 +96,12 @@
     <string name="incall_vibrate_connect_title">Vibrate on connect</string>
     <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Screen off torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button</string>
+    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
 
 </resources>

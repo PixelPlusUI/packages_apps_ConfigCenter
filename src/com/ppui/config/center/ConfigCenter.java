@@ -22,27 +22,35 @@ package com.ppui.config.center;
 import com.android.internal.logging.nano.MetricsProto;
 
 import android.app.Activity;
+import android.content.ContentResolver;
 import android.content.pm.ActivityInfo;
 import android.content.res.Configuration;
 import android.os.Bundle;
+import android.provider.Settings;
 import android.view.Surface;
-import androidx.preference.Preference;
-import androidx.preference.PreferenceCategory;
-import androidx.preference.PreferenceScreen;
+import androidx.preference.*;
 
 import com.ppui.config.center.preferences.Utils;
 
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
+import android.widget.Toast;
 
-public class ConfigCenter extends SettingsPreferenceFragment {
+public class ConfigCenter extends SettingsPreferenceFragment
+        implements Preference.OnPreferenceChangeListener {
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
+    private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+
+    private ContentResolver mResolver;
+    private ListPreference mTorchPowerButton;
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
         addPreferencesFromResource(R.xml.config_center);
+
+        mResolver = getActivity().getContentResolver();
 
         PreferenceScreen prefScreen = getPreferenceScreen();
 
@@ -50,6 +58,37 @@ public class ConfigCenter extends SettingsPreferenceFragment {
         if (!Utils.isVoiceCapable(getActivity())) {
             prefScreen.removePreference(incallVibCategory);
         }
+        // screen off torch
+        mTorchPowerButton = (ListPreference) findPreference(TORCH_POWER_BUTTON_GESTURE);
+        int mTorchPowerButtonValue = Settings.Secure.getInt(mResolver,
+                Settings.Secure.TORCH_POWER_BUTTON_GESTURE, 0);
+        mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
+        mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
+        mTorchPowerButton.setOnPreferenceChangeListener(this);
+    }
+
+    @Override
+    public boolean onPreferenceChange(Preference preference, Object newValue) {
+        boolean DoubleTapPowerGesture = Settings.Secure.getInt(mResolver,
+                    Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED, 1) == 0;
+        if (preference == mTorchPowerButton) {
+            int mTorchPowerButtonValue = Integer.valueOf((String) newValue);
+            int index = mTorchPowerButton.findIndexOfValue((String) newValue);
+            mTorchPowerButton.setSummary(
+                    mTorchPowerButton.getEntries()[index]);
+            Settings.Secure.putInt(mResolver, Settings.Secure.TORCH_POWER_BUTTON_GESTURE,
+                    mTorchPowerButtonValue);
+            if (mTorchPowerButtonValue == 1 && DoubleTapPowerGesture) {
+                //if doubletap for torch is enabled, switch off double tap for camera
+                Settings.Secure.putInt(mResolver, Settings.Secure.CAMERA_DOUBLE_TAP_POWER_GESTURE_DISABLED,
+                        1);
+                Toast.makeText(getActivity(),
+                    (R.string.torch_power_button_gesture_dt_toast),
+                    Toast.LENGTH_SHORT).show();
+            }
+            return true;
+        }
+        return false;
     }
 
     @Override

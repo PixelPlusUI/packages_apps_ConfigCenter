@@ -3,10 +3,13 @@
      Copyright (C) 2018 Havoc-OS
      Copyright (C) 2018 ExtendedUI
      Copyright (C) 2020 PixelPlusUI
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -44,7 +47,7 @@
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Статусбар/Быстрые настройки</string>
     <string name="navbar_keys_cg_title">Панель навигации</string>
-    <string name="dt_keys_cg_title">Двойное нажатие</string>
+    <string name="dt_keys_cg_title">Жесты</string>
 
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Статусбар</string>
@@ -93,5 +96,12 @@
     <string name="incall_vibrate_connect_title">Вибрация при подключении</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Фонарик при выключенном экране</string>
+    <string name="torch_power_button_gesture_none">Выключено</string>
+    <string name="torch_power_button_gesture_dt">Нажмите два раза на кнопку питания</string>
+    <string name="torch_power_button_gesture_dt_toast">Жест включение камеры сейчас отключен</string>
+    <string name="torch_power_button_gesture_lp">Зажмите на кнопку питания</string>
 
 </resources>

@@ -80,6 +80,12 @@
             android:summary="@string/double_tap_sleep_gesture_summary"
             android:defaultValue="false" />
 
+    <ListPreference
+            android:key="torch_power_button_gesture"
+            android:title="@string/torch_power_button_gesture_title"
+            android:entries="@array/torch_power_button_gesture_entries"
+            android:entryValues="@array/torch_power_button_gesture_values" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
