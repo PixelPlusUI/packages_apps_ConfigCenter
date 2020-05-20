@@ -32,6 +32,9 @@
     <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>
     <string name="qs_blur_alpha_title">Blur alpha</string>
     <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
+    <string name="qs_blur_intensity_title">Blur intensity</string>
+    <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
+    <string name="unit_percent">\u0025</string>
 	
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Power button</string>

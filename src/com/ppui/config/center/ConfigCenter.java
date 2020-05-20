@@ -44,11 +44,13 @@ public class ConfigCenter extends SettingsPreferenceFragment
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
     private static final String QS_BACKGROUND_BLUR_ALPHA = "qs_blur_alpha";
+    private static final String QS_BACKGROUND_BLUR_INTENSITY = "qs_blur_intensity";
 
     private ContentResolver mResolver;
     private ListPreference mTorchPowerButton;
 
     private CustomSeekBarPreference mQSBlurAlpha;
+    private CustomSeekBarPreference mQSBlurIntensity;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -76,6 +78,12 @@ public class ConfigCenter extends SettingsPreferenceFragment
                 Settings.System.QS_BACKGROUND_BLUR_ALPHA, 100);
         mQSBlurAlpha.setValue(qsBlurAlpha);
         mQSBlurAlpha.setOnPreferenceChangeListener(this);
+
+        mQSBlurIntensity = (CustomSeekBarPreference) findPreference(QS_BACKGROUND_BLUR_INTENSITY);
+        int qsBlurIntensity = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BACKGROUND_BLUR_INTENSITY, 30);
+        mQSBlurIntensity.setValue(qsBlurIntensity);
+        mQSBlurIntensity.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -102,6 +110,11 @@ public class ConfigCenter extends SettingsPreferenceFragment
             int value = (Integer) newValue;
             Settings.System.putInt(mResolver, Settings.System.QS_BACKGROUND_BLUR_ALPHA, value);
                 return true;
+        } else if (preference == mQSBlurIntensity) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(getContentResolver(),
+                    Settings.System.QS_BACKGROUND_BLUR_INTENSITY, value);
+            return true;
 	}
         return false;
     }

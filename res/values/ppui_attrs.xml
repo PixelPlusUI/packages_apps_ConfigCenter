@@ -20,6 +20,8 @@
         <attr name="interval" format="integer" />
         <attr name="showSign" format="boolean" />
         <attr name="units" format="string|reference" />
+        <attr name="unitsLeft" format="string|reference" />
+        <attr name="unitsRight" format="string|reference" />
         <attr name="continuousUpdates" format="boolean" />
     </declare-styleable>
 
