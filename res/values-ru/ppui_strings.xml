@@ -30,6 +30,8 @@
     <!-- QS blur -->
     <string name="blur_quicksettings">Размытие за быстрыми настройками</string>
     <string name="blur_quicksettings_subtitle">Размытие фона за панелью быстрых настроек</string>
+    <string name="qs_blur_alpha_title">Прозрачность размытия</string>
+    <string name="qs_blur_alpha_summary">Выставить прозрачность размытия в быстрых настройках</string>
 	
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Кнопка питания</string>

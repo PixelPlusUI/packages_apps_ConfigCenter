@@ -28,6 +28,16 @@
     android:summary="@string/blur_quicksettings_subtitle"
     android:defaultValue="true" />
 
+        <com.ppui.config.center.preferences.CustomSeekBarPreference
+            android:key="qs_blur_alpha"
+            android:title="@string/qs_blur_alpha_title"
+            android:summary="@string/qs_blur_alpha_summary"
+            android:max="100"
+            settings:min="1"
+            settings:units="%"
+            android:persistent="false"
+            android:dependency="qs_blur" />
+
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="lockscreen_show_status_bar"
     android:title="@string/lockscreen_show_status_bar_title"

@@ -30,6 +30,8 @@
     <!-- QS blur -->
     <string name="blur_quicksettings">Розмиття за швидкими налаштуваннями</string>
     <string name="blur_quicksettings_subtitle">Розмиття фону за панеллю швидких налаштувань</string>
+    <string name="qs_blur_alpha_title">Прозорість розмиття</string>
+    <string name="qs_blur_alpha_summary">Виставити прозорість розмиття у швидких налаштуваннях</string>
 	
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Кнопка живлення</string>

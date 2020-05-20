@@ -30,6 +30,8 @@
     <!-- QS blur -->
     <string name="blur_quicksettings">Blur behind quick settings</string>
     <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>
+    <string name="qs_blur_alpha_title">Blur alpha</string>
+    <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
 	
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Power button</string>

@@ -36,14 +36,19 @@ import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 import android.widget.Toast;
 
+import com.ppui.config.center.preferences.CustomSeekBarPreference;
+
 public class ConfigCenter extends SettingsPreferenceFragment
         implements Preference.OnPreferenceChangeListener {
 
     private static final String INCALL_VIB_OPTIONS = "incall_vib_options";
     private static final String TORCH_POWER_BUTTON_GESTURE = "torch_power_button_gesture";
+    private static final String QS_BACKGROUND_BLUR_ALPHA = "qs_blur_alpha";
 
     private ContentResolver mResolver;
     private ListPreference mTorchPowerButton;
+
+    private CustomSeekBarPreference mQSBlurAlpha;
 
     @Override
     public void onCreate(Bundle icicle) {
@@ -65,6 +70,12 @@ public class ConfigCenter extends SettingsPreferenceFragment
         mTorchPowerButton.setValue(Integer.toString(mTorchPowerButtonValue));
         mTorchPowerButton.setSummary(mTorchPowerButton.getEntry());
         mTorchPowerButton.setOnPreferenceChangeListener(this);
+
+        mQSBlurAlpha = (CustomSeekBarPreference) findPreference(QS_BACKGROUND_BLUR_ALPHA);
+        int qsBlurAlpha = Settings.System.getInt(getContentResolver(),
+                Settings.System.QS_BACKGROUND_BLUR_ALPHA, 100);
+        mQSBlurAlpha.setValue(qsBlurAlpha);
+        mQSBlurAlpha.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -87,7 +98,11 @@ public class ConfigCenter extends SettingsPreferenceFragment
                     Toast.LENGTH_SHORT).show();
             }
             return true;
-        }
+        } else if (preference == mQSBlurAlpha) {
+            int value = (Integer) newValue;
+            Settings.System.putInt(mResolver, Settings.System.QS_BACKGROUND_BLUR_ALPHA, value);
+                return true;
+	}
         return false;
     }
 
