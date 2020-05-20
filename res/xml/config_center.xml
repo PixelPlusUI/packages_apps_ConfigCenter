@@ -40,6 +40,12 @@
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.ppui.config.center.fragments.ClockSettings" />
 
+     <com.ppui.config.center.preferences.SystemSettingSwitchPreference
+            android:key="notification_headers"
+            android:title="@string/notification_headers_title"
+            android:summary="@string/notification_headers_summary"
+            android:defaultValue="true" />
+
     </PreferenceCategory>
 
     <PreferenceCategory

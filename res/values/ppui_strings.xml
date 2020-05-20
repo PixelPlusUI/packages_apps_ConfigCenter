@@ -104,4 +104,8 @@
     <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
     <string name="torch_power_button_gesture_lp">Long press power button</string>
 
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Show notification headers</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+
 </resources>
