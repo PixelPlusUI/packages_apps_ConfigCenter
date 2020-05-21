@@ -22,6 +22,12 @@
         android:key="statusbar_qs_key"
         android:title="@string/statusbar_qs_keys_title" >
 
+        <Preference
+            android:key="traffic"
+            android:fragment="com.ppui.config.center.fragments.Traffic"
+            android:title="@string/traffic_title"
+            android:summary="@string/traffic_title_summary" />
+
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="qs_blur"
     android:title="@string/blur_quicksettings"
