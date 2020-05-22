@@ -50,8 +50,8 @@ import com.android.internal.logging.nano.MetricsProto;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
-import com.ppui.support.preferences.PackageListAdapter;
-import com.ppui.support.preferences.PackageListAdapter.PackageItem;
+import com.ppui.config.center.preferences.PackageListAdapter;
+import com.ppui.config.center.preferences.PackageListAdapter.PackageItem;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -113,13 +113,13 @@ public class GamingMode extends SettingsPreferenceFragment
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.HAVOC_SETTINGS;
+        return MetricsProto.MetricsEvent.PPUI_SETTINGS;
     }
 
     @Override
     public int getDialogMetricsCategory(int dialogId) {
         if (dialogId == DIALOG_GAMING_APPS) {
-            return MetricsProto.MetricsEvent.HAVOC_SETTINGS;
+            return MetricsProto.MetricsEvent.PPUI_SETTINGS;
         }
         return 0;
     }

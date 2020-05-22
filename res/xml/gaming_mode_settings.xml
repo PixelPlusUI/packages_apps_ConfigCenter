@@ -26,12 +26,6 @@
         android:defaultValue="true" />
 
     <com.ppui.config.center.preferences.SystemSettingSwitchPreference
-        android:key="gaming_mode_hw_keys_toggle"
-        android:title="@string/gaming_mode_hardware_keys_title"
-        android:summary="@string/gaming_mode_hardware_keys_summary"
-        android:defaultValue="false" />
-
-    <com.ppui.config.center.preferences.SystemSettingSwitchPreference
         android:key="gaming_mode_manual_brightness_toggle"
         android:title="@string/gaming_mode_brightness_title"
         android:summary="@string/gaming_mode_brightness_summary"
