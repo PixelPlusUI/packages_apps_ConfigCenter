@@ -26,12 +26,14 @@
             android:key="traffic"
             android:fragment="com.ppui.config.center.fragments.Traffic"
             android:title="@string/traffic_title"
+	    android:icon="@drawable/traffic"
             android:summary="@string/traffic_title_summary" />
 
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="qs_blur"
     android:title="@string/blur_quicksettings"
     android:summary="@string/blur_quicksettings_subtitle"
+    android:icon="@drawable/blur"
     android:defaultValue="true" />
 
         <com.ppui.config.center.preferences.CustomSeekBarPreference
@@ -42,6 +44,7 @@
             settings:min="1"
             settings:units="%"
             android:persistent="false"
+	    android:icon="@drawable/blur_alpha"
             android:dependency="qs_blur" />
 
         <com.ppui.config.center.preferences.CustomSeekBarPreference
@@ -52,18 +55,21 @@
             settings:min="1"
             settings:unitsRight="@string/unit_percent"
             android:persistent="false"
+	    android:icon="@drawable/blur_intensity"
             android:dependency="qs_blur" />
 
 <com.ppui.config.center.preferences.SystemSettingSwitchPreference
     android:key="lockscreen_show_status_bar"
     android:title="@string/lockscreen_show_status_bar_title"
     android:summary="@string/lockscreen_show_status_bar_summary"
+    android:icon="@drawable/statusbar"
     android:defaultValue="true" />
 
    <Preference
          android:key="clock_settings"
          android:title="@string/clock_style_category_title"
          android:summary="@string/clock_style_category_summary"
+         android:icon="@drawable/clock"
          android:fragment="com.ppui.config.center.fragments.ClockSettings" />
 
     </PreferenceCategory>
@@ -76,6 +82,7 @@
             android:key="notification_headers"
             android:title="@string/notification_headers_title"
             android:summary="@string/notification_headers_summary"
+	    android:icon="@drawable/headers"
             android:defaultValue="true" />
 
     <com.ppui.config.center.preferences.SystemSettingMasterSwitchPreference
@@ -83,11 +90,12 @@
         android:fragment="com.ppui.config.center.fragments.GamingMode"
         android:title="@string/gaming_mode_title"
         android:summary="@string/gaming_mode_summary"
+        android:icon="@drawable/gaming"
         android:defaultValue="false" />
 
     <Preference
         android:key="notification_category"
-        android:icon="@drawable/ic_notification"
+        android:icon="@drawable/notif"
     	android:title="@string/notification_category"
     	android:summary="@string/notification_category_summary"
     	android:fragment="com.ppui.config.center.fragments.Notification"/>
@@ -96,6 +104,7 @@
         android:key="less_boring_heads_up"
         android:title="@string/less_boring_heads_up_title"
         android:summary="@string/less_boring_heads_up_summary"
+        android:icon="@drawable/lbnotif"
         android:defaultValue="false" />
 
     </PreferenceCategory>
@@ -108,6 +117,7 @@
             android:key="power_menu"
             android:title="@string/power_menu_title"
             android:summary="@string/power_menu_subtitle"
+	    android:icon="@drawable/power"
             android:fragment="com.ppui.config.center.fragments.PowerMenuActions" />
 
     </PreferenceCategory>
@@ -119,6 +129,7 @@
     <com.ppui.config.center.preferences.SecureSettingMasterSwitchPreference
         android:key="sysui_nav_bar_inverse"
         android:title="@string/navigation_bar_invert_layout_title"
+        android:icon="@drawable/invert"
         android:defaultValue="false" />
     </PreferenceCategory>
 
@@ -130,18 +141,21 @@
             android:key="double_tap_sleep_lockscreen"
             android:title="@string/double_tap_sleep_lockscreen_title"
             android:summary="@string/double_tap_sleep_lockscreen_summary"
+	    android:icon="@drawable/sleep"
             android:defaultValue="false" />
 
     <com.ppui.config.center.preferences.SystemSettingSwitchPreference
             android:key="double_tap_sleep_gesture"
             android:title="@string/double_tap_sleep_gesture_title"
             android:summary="@string/double_tap_sleep_gesture_summary"
+	    android:icon="@drawable/sleep"
             android:defaultValue="false" />
 
     <ListPreference
             android:key="torch_power_button_gesture"
             android:title="@string/torch_power_button_gesture_title"
             android:entries="@array/torch_power_button_gesture_entries"
+	    android:icon="@drawable/torch"
             android:entryValues="@array/torch_power_button_gesture_values" />
 
     </PreferenceCategory>
@@ -153,16 +167,19 @@
         <com.ppui.config.center.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_connect"
             android:title="@string/incall_vibrate_connect_title"
+	    android:icon="@drawable/vibrate"
             android:defaultValue="false" />
 
         <com.ppui.config.center.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_callwaiting"
             android:title="@string/incall_vibrate_call_wait_title"
+	    android:icon="@drawable/vibrate"
             android:defaultValue="false" />
 
         <com.ppui.config.center.preferences.SystemSettingSwitchPreference
             android:key="vibrate_on_disconnect"
             android:title="@string/incall_vibrate_disconnect_title"
+	    android:icon="@drawable/vibrate"
             android:defaultValue="false" />
 
     </PreferenceCategory>
