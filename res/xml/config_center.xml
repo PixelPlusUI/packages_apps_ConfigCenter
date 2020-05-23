@@ -66,6 +66,12 @@
          android:summary="@string/clock_style_category_summary"
          android:fragment="com.ppui.config.center.fragments.ClockSettings" />
 
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="notif_qs_key"
+        android:title="@string/notif_qs_keys_title" >
+
      <com.ppui.config.center.preferences.SystemSettingSwitchPreference
             android:key="notification_headers"
             android:title="@string/notification_headers_title"
@@ -79,7 +85,7 @@
         android:summary="@string/gaming_mode_summary"
         android:defaultValue="false" />
 
-    <com.ppui.config.center.preferences.CardviewPreference
+    <Preference
         android:key="notification_category"
         android:icon="@drawable/ic_notification"
     	android:title="@string/notification_category"
