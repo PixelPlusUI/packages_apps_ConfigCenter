@@ -86,6 +86,12 @@
     	android:summary="@string/notification_category_summary"
     	android:fragment="com.ppui.config.center.fragments.Notification"/>
 
+    <com.ppui.config.center.preferences.SystemSettingSwitchPreference
+        android:key="less_boring_heads_up"
+        android:title="@string/less_boring_heads_up_title"
+        android:summary="@string/less_boring_heads_up_summary"
+        android:defaultValue="false" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
