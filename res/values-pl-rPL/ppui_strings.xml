@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+     Copyright (C) 2020 PixelPlusUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- App Title -->
+    <string name="config_center_title">Pixelizer</string>
+
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Wartość: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Domyślne</string>
+    <string name="custom_seekbar_default_value_to_set">Wartość domyślna: <xliff:g id="v">%s</xliff:g>\nPrzytrzymaj dłużej by ustawić</string>
+    <string name="custom_seekbar_default_value_is_set">Domyślna wartość jest ustawiona</string>
+
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Rozmycie za szybkimi ustawieniami</string>
+    <string name="blur_quicksettings_subtitle">Rozmyj tło za Szybkimi Ustawieniami</string>
+    <string name="qs_blur_alpha_title">Przezroczystość rozmycia</string>
+    <string name="qs_blur_alpha_summary">Ustawia przezroczystość rozmycia</string>
+    <string name="qs_blur_intensity_title">Intensywność rozmycia</string>
+    <string name="qs_blur_intensity_summary">Ustawia rozmycie intensywność/promień</string>
+    <string name="unit_percent">\u0025</string>
+
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Przycisk zasilania</string>
+    <string name="power_menu_title">menu zasilania</string>
+    <string name="power_menu_subtitle">Dostosuj opcje zasilania</string>
+    <string name="power_menu_screenshot_title">Zrzut ekranu</string>
+    <string name="power_menu_screenrecord_title">Nagrywanie ekranu</string>
+    <string name="power_menu_airplane_title">Tryb samolotowy</string>
+    <string name="power_menu_lockdown_title">Blokada</string>
+
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Zaawansowany restart</string>
+    <string name="advanced_reboot_summary">Kiedy urządzenie jest odblokowane, dodaj opcję ponownego uruchomienia w trybie recovery lub bootloadera do menu zasilania</string>
+
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE</string>
+    <string name="volte_icon_summary">Wyświetl ikonę VoLTE</string>
+    <string name="volte_icon_style_title">Wybierz ikonę VoLTE</string>
+    <string name="volte_icon_vo">Ikona tylko Vo</string>
+    <string name="volte_icon_volte">Ikona VoLTE</string>
+    <string name="volte_icon_oos">Ikona VoLTE OSS</string>
+    <string name="volte_icon_hd">Ikona HD</string>
+
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">Pasek stanu/QS</string>
+    <string name="volte_keys_cg_title">Ikona VoLTE</string>
+    <string name="navbar_keys_cg_title">Pasek nawigacji</string>
+    <string name="dt_keys_cg_title">Gesty</string>
+    <string name="notif_qs_keys_title">Powiadomienie</string>
+
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Pasek stanu</string>
+    <string name="lockscreen_show_status_bar_summary">Pokaż pasek stanu na ekranie blokady</string>
+
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_invert_layout_title">Odwróć układ</string>
+
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Ustawienia zegara</string>
+    <string name="clock_style_category_summary">Dostosuj zegar na pasku statusu</string>
+    <string name="status_bar_clock_title">Ustawienia zegara</string>
+    <string name="status_bar_clock_show">Pokaż datę i czas</string>
+    <string name="status_bar_clock_style_title">Styl zegara</string>
+    <string name="status_bar_clock_style_right">Prawy</string>
+    <string name="status_bar_clock_style_center">Na środku</string>
+    <string name="status_bar_clock_style_left">Po lewej</string>
+    <string name="status_bar_am_pm_title">Styl AM/PM</string>
+    <string name="status_bar_am_pm_info">24-godzinny zegar jest włączony</string>
+    <string name="status_bar_am_pm_normal">Normalny</string>
+    <string name="status_bar_am_pm_small">Mały</string>
+    <string name="status_bar_am_pm_hidden">Ukryty (domyślnie)</string>
+    <string name="clock_seconds_display">Pokaż sekundy</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_display_summary">Wyświetl niestandardową datę przed zegarem</string>
+    <string name="clock_date_display_none">Nie pokazuj</string>
+    <string name="clock_date_display_small">Mały rozmiar czcionki</string>
+    <string name="clock_date_display_normal">Normalna czcionka</string>
+    <string name="clock_date_style">Wygląd daty</string>
+    <string name="clock_date_style_normal">Normalny</string>
+    <string name="clock_date_style_lowercase">Małe litery</string>
+    <string name="clock_date_style_uppercase">Duże litery</string>
+    <string name="clock_date_format_custom">Własny format (java)</string>
+    <string name="clock_date_format">Format daty</string>
+    <string name="clock_date_string_edittext_title">Musi być w formacie daty np. MM/dd/rr</string>
+    <string name="clock_date_string_edittext_summary">Wprowadź ciąg znaków</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Dwukrotnie stuknij na ekranie blokady, by uśpić</string>
+    <string name="double_tap_sleep_lockscreen_summary">Dwukrotnie stuknij w dowolnym miejscu ekranu blokady, by uśpić urządzenie</string>
+    <string name="double_tap_sleep_gesture_title">Stuknij dwukrotnie pasek stanu, aby uśpić</string>
+    <string name="double_tap_sleep_gesture_summary">Stuknij dwukrotnie pasek statusu aby uśpić</string>
+
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Opcje wibracji podczas rozmowy</string>
+    <string name="incall_vibrate_connect_title">Wibracja przy połączeniu</string>
+    <string name="incall_vibrate_call_wait_title">Wibracja przy połączeniu oczekującym</string>
+    <string name="incall_vibrate_disconnect_title">Wibracja przy rozłączeniu</string>
+
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Latarka przy wyłączonym ekranie</string>
+    <string name="torch_power_button_gesture_none">Wyłączony</string>
+    <string name="torch_power_button_gesture_dt">Dwukrotnie naciśnij przycisk zasilania</string>
+    <string name="torch_power_button_gesture_dt_toast">Gest otwarcia aparatu jest aktywny</string>
+    <string name="torch_power_button_gesture_lp">Przytrzymanie przycisku zasilania</string>
+
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Pokaż nagłówki powiadomień</string>
+    <string name="notification_headers_summary">Czy pokazywać nagłówki powiadomień w stylu R (wymaga ponownego uruchomienia SystemUI)</string>
+
+    <!-- Network traffic -->
+    <string name="traffic_title">Wskaźnik ruchu sieciowego</string>
+    <string name="traffic_title_summary">Dostosuj wskaźniki ruchu sieciowego</string>
+    <string name="network_traffic_title">Ruch sieciowy</string>
+    <string name="network_traffic_type">Wybierz typ aktywności Internetu</string>
+    <string name="show_network_traffic_up">Wychodzące</string>
+    <string name="show_network_traffic_down">Przychodzące</string>
+    <string name="show_network_traffic_all">Wychodzące i przychodzące</string>
+    <string name="network_traffic_state_title">Pokaż aktywność sieci w pasku stanu</string>
+    <string name="network_traffic_autohide_threshold_title">Próg auto ukrywania wskaźnika aktywności sieci (KB/s)</string>
+    <string name="network_traffic_hidearrow">Ukryj strzałki</string>
+    <string name="network_traffic_hidearrow_summary">Ukryj strzałki wskaźnika ruchu sieciowego</string>
+
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Tryb Grania</string>
+    <string name="gaming_mode_summary">Dostosuj ustawienia trybu gry</string>
+    <string name="gaming_mode_app_picker_title">Włącz automatycznie dla tych aplikacji</string>
+    <string name="add_gaming_mode_package_title">Dodaj aplikacje do trybu grania</string>
+    <string name="add_gaming_mode_package_summary">Tryb gry zostanie automatycznie włączony przy uruchomieniu aplikacji oraz wyłączony po zakończeniu jej</string>
+    <string name="gaming_mode_headsup_title">Zablokuj powiadomienia</string>
+    <string name="gaming_mode_headsup_summary">Zablokuj wszystkie wyskakujące wiadomości oprócz połączeń.</string>
+    <string name="gaming_mode_hardware_keys_title">Zablokuj przyciski</string>
+    <string name="gaming_mode_hardware_keys_summary">Wyłącz przyciski sprzętowe, gdy włączony jest tryb gry</string>
+    <string name="gaming_mode_brightness_title">Wyłącz automatyczną jasność</string>
+    <string name="gaming_mode_brightness_summary">Zablokuj jasność w trybie grania.</string>
+    <string name="gaming_mode_ringer_title">Dzwonek w trybie grania</string>
+    <string name="gaming_mode_ringer_off_title">Nie zmieniaj</string>
+    <string name="gaming_mode_ringer_vibrate_title">Wibracje</string>
+    <string name="gaming_mode_ringer_dnd_title">Nie przeszkadzać</string>
+    <string name="gaming_mode_ringer_silent_title">Wyciszony</string>
+    <string name="gaming_mode_notifications_title">Indykator trybu grania</string>
+    <string name="gaming_mode_notifications_off_title">Wyłączony</string>
+    <string name="gaming_mode_notifications_notif_title">Pokaż powiadomienia</string>
+    <string name="gaming_mode_notifications_toast_title">Pokaż powiadomienie</string>
+    <string name="gaming_mode_notifications_all_title">Pokaż zwykłe i małe powiadomienie</string>
+    <string name="gaming_mode_dynamic_title">Tryb dynamiczny</string>
+    <string name="gaming_mode_dynamic_summary">Spróbuj wykryć i dodać gry automatycznie</string>
+
+    <!-- PackageListAdapter Strings -->
+    <string name="profile_choose_app">Wybierz aplikację</string>
+    <string name="dialog_delete_title">Usuń</string>
+    <string name="dialog_delete_message">Usunąć wybrany element ?</string>
+
+    <!-- Notifications -->
+    <string name="notification_category">Powiadomienia</string>
+    <string name="notification_category_summary">Spersonalizuj swoje powiadomienia</string>
+
+    <!-- Heads up -->
+    <string name="notification_stat">Pasek stanu</string>
+    <string name="heads_up_notifications">Wyskakujące powiadomienia</string>
+    <string name="heads_up_notifications_summary">Wyskakujące powiadomienia na pasku stanu</string>
+    <string name="add_heads_up_package">Dodaj aplikacje</string>
+    <string name="heads_up_stoplist_title">Lista wstrzymanych</string>
+    <string name="add_heads_up_stoplist_summary">Wyłącz wyskakujące powiadomienia dla tych aplikacji</string>
+    <string name="heads_up_blacklist_title">Czarna lista</string>
+    <string name="add_heads_up_blacklist_summary">Wyłącz wyskakujące powiadomienia dla tych aplikacji</string>
+
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Czas wyświetlania</string>
+    <string name="heads_up_time_out_summary">Wyskakujące powiadomienia będą wyświetlane przez <xliff:g id="number">%d</xliff:g> sekund</string>
+    <string name="heads_up_time_out_2sec">2 sekundy</string>
+    <string name="heads_up_time_out_4sec">4 sekundy</string>
+    <string name="heads_up_time_out_5sec">5 sekund</string>
+    <string name="heads_up_time_out_6sec">6 sekund</string>
+    <string name="heads_up_time_out_8sec">8 sekund</string>
+    <string name="heads_up_time_out_10sec">10 sekund</string>
+
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Drzemka</string>
+    <string name="heads_up_snooze_summary_one_minute">Przesuwania palcem w górę usypia powiadomienie z tej aplikacji na 1 minutę</string>
+    <string name="heads_up_snooze_summary">Przesunięcie palcem w górę na wyskakującym powiadomieniu usypia powiadomienia z tej aplikacji <xliff:g id="number">%d</xliff:g> minut</string>
+    <string name="heads_up_snooze_disabled_summary">Przycisk drzemki wyłączony</string>
+    <string name="heads_up_snooze_1min">1 minuta</string>
+    <string name="heads_up_snooze_5min">5 minut</string>
+    <string name="heads_up_snooze_10min">10 minut</string>
+    <string name="heads_up_snooze_15min">15 minut</string>
+    <string name="heads_up_snooze_20min">20 minut</string>
+
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Mniej wyskakujących powiadomień</string>
+    <string name="less_boring_heads_up_summary">Pokaż wyskakujące powiadomienia tylko dla dialera, wiadomości i alarmu</string>
+
+</resources>
