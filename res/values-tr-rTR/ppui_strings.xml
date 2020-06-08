@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+     Copyright (C) 2020 PixelPlusUI
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">Pikselleştirici</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Değer: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Varsayılan</string>
+    <string name="custom_seekbar_default_value_to_set">Varsayılan değer: <xliff:g id="v">%s</xliff:g>\nAyarlamak için uzun dokunun</string>
+    <string name="custom_seekbar_default_value_is_set">Varsayılan değer ayarlandı</string>
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Hızlı ayarların arkasını bulanıklaştır</string>
+    <string name="blur_quicksettings_subtitle">HA arkasındaki arka planı bulanıklaştırır</string>
+    <string name="qs_blur_alpha_title">Bulanıklık alfa</string>
+    <string name="qs_blur_alpha_summary">Bulanıklık saydamlığını ayarla</string>
+    <string name="qs_blur_intensity_title">Bulanıklık yoğunluğu</string>
+    <string name="qs_blur_intensity_summary">Bulanıklık yoğunluğunu ve yarıçapını ayarla</string>
+    <string name="unit_percent">\u0025</string>
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Güç tuşu</string>
+    <string name="power_menu_title">Güç Menüsü</string>
+    <string name="power_menu_subtitle">Güç menüsünü özelleştir</string>
+    <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
+    <string name="power_menu_screenrecord_title">Ekran kaydı</string>
+    <string name="power_menu_airplane_title">Uçak modu</string>
+    <string name="power_menu_lockdown_title">Kilitleme</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
+    <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya önyükleme modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE simgesi</string>
+    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
+    <string name="volte_icon_style_title">VoLTE simgesini seçin</string>
+    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
+    <string name="volte_icon_volte">VoLTE simgesi</string>
+    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
+    <string name="volte_icon_hd">HD simgesi</string>
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">Durum çubuğu/HA</string>
+    <string name="volte_keys_cg_title">VoLTE simgesi</string>
+    <string name="navbar_keys_cg_title">Gezinme çubuğu</string>
+    <string name="dt_keys_cg_title">Hareketler</string>
+    <string name="notif_qs_keys_title">Bildirim</string>
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Durum Çubuğu</string>
+    <string name="lockscreen_show_status_bar_summary">Kilit ekranında durum çubuğunu göster</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_invert_layout_title">Düzeni tersine çevir</string>
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Saat Ayarları</string>
+    <string name="clock_style_category_summary">Durum çubuğu saat ayarlayıcısı</string>
+    <string name="status_bar_clock_title">Saat ayarları</string>
+    <string name="status_bar_clock_show">Saat ve tarihi göster</string>
+    <string name="status_bar_clock_style_title">Saat stili</string>
+    <string name="status_bar_clock_style_right">Sağ</string>
+    <string name="status_bar_clock_style_center">Merkez</string>
+    <string name="status_bar_clock_style_left">Sol</string>
+    <string name="status_bar_am_pm_title">ÖÖ/ÖS biçimi</string>
+    <string name="status_bar_am_pm_info">24 Saat Biçimi Etkinleştirildi</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Küçük</string>
+    <string name="status_bar_am_pm_hidden">Gizli (varsayılan)</string>
+    <string name="clock_seconds_display">Saniyeyi göster</string>
+    <string name="clock_date_display">Tarih</string>
+    <string name="clock_date_display_summary">Saatden önce özel tarihi göster</string>
+    <string name="clock_date_display_none">Gösterme</string>
+    <string name="clock_date_display_small">Küçük yazı boyutu</string>
+    <string name="clock_date_display_normal">Normal yazı boyutu</string>
+    <string name="clock_date_style">Tarih stili</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Küçük harf</string>
+    <string name="clock_date_style_uppercase">Büyük harf</string>
+    <string name="clock_date_format_custom">Özel java biçimi</string>
+    <string name="clock_date_format">Tarih biçimi</string>
+    <string name="clock_date_string_edittext_title">Tarih biçimi örnekteki gibi olmalıdır. AA/gg/yy</string>
+    <string name="clock_date_string_edittext_summary">Yazı girin</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Kilit ekranında çift dokunuşla uyutma</string>
+    <string name="double_tap_sleep_lockscreen_summary">Cihazı uyku moduna almak için kilit ekranında herhangi bir yere iki kez dokunun</string>
+    <string name="double_tap_sleep_gesture_title">Cihazı uyutmak için durum çubuğuna iki kez dokunun</string>
+    <string name="double_tap_sleep_gesture_summary">Cihazı uyutmak için durum çubuğuna iki kez dokun</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">Çağrı titreşimi</string>
+    <string name="incall_vibrate_connect_title">Bağlandığında titret</string>
+    <string name="incall_vibrate_call_wait_title">Çağrı bekletildiğinde titret</string>
+    <string name="incall_vibrate_disconnect_title">Bağlantı kesildiğinde titret</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Ekran kapalıyken el feneri</string>
+    <string name="torch_power_button_gesture_none">Kapalı</string>
+    <string name="torch_power_button_gesture_dt">Güç tuşuna iki kez bas</string>
+    <string name="torch_power_button_gesture_dt_toast">Kamera hareketine geç artık devre dışı</string>
+    <string name="torch_power_button_gesture_lp">Güç tuşuna uzun bas</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Bildirim başlıklarını göster</string>
+    <string name="notification_headers_summary">R stili bildirim başlıklarının gösterilip gösterilmeyeceğini seçin (Sistem arayüzünün yeniden başlatılmasını gerektirir)</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Trafik Göstergeleri</string>
+    <string name="traffic_title_summary">Ağ trafiği göstergelerini özelleştirin</string>
+    <string name="network_traffic_title">Ağ trafiği</string>
+    <string name="network_traffic_type">İnternet etkinlik türünü seç</string>
+    <string name="show_network_traffic_up">Giden</string>
+    <string name="show_network_traffic_down">Gelen</string>
+    <string name="show_network_traffic_all">Giden ve gelen</string>
+    <string name="network_traffic_state_title">Durum çubuğunda ağ etkinliğini göster</string>
+    <string name="network_traffic_autohide_threshold_title">Ağ etkinliği otomatik gizlenme eşiği (KB/s)</string>
+    <string name="network_traffic_hidearrow">Okları gizle</string>
+    <string name="network_traffic_hidearrow_summary">Ağ trafiği göstergesi oklarını gizler</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Oyun Modu</string>
+    <string name="gaming_mode_summary">Oyun modu tercihlerini özelleştir</string>
+    <string name="gaming_mode_app_picker_title">Bu uygulamalar için otomatik olarak aç</string>
+    <string name="add_gaming_mode_package_title">Oyun modu için uygulamalar ekle</string>
+    <string name="add_gaming_mode_package_summary">Bu uygulamalar açıldığında oyun modu otomatik olarak açılacak ve kapatıldığında kapanacak</string>
+    <string name="gaming_mode_headsup_title">Bildirimleri engelle</string>
+    <string name="gaming_mode_headsup_summary">Aramalar haricindeki tüm bildirim pencerelerini engelle</string>
+    <string name="gaming_mode_hardware_keys_title">Kilit butonları</string>
+    <string name="gaming_mode_hardware_keys_summary">Oyun modu açıldığında donanım tuşlarını devre dışı bırak</string>
+    <string name="gaming_mode_brightness_title">Otomatik parlaklığı devre dışı bırak</string>
+    <string name="gaming_mode_brightness_summary">Oyun modu açıldığında ekran parlaklığını kilitle</string>
+    <string name="gaming_mode_ringer_title">Oyun modunda zil sesi</string>
+    <string name="gaming_mode_ringer_off_title">Değiştirme</string>
+    <string name="gaming_mode_ringer_vibrate_title">Titreşim</string>
+    <string name="gaming_mode_ringer_dnd_title">Rahatsız etmeyin</string>
+    <string name="gaming_mode_ringer_silent_title">Sessiz</string>
+    <string name="gaming_mode_notifications_title">Oyun modu göstergesi</string>
+    <string name="gaming_mode_notifications_off_title">Kapalı</string>
+    <string name="gaming_mode_notifications_notif_title">Bildirim göster</string>
+    <string name="gaming_mode_notifications_toast_title">Uyarı mesajlarını göster</string>
+    <string name="gaming_mode_notifications_all_title">Uyarı mesajlarını ve bildirimi göster</string>
+    <string name="gaming_mode_dynamic_title">Dinamik mod</string>
+    <string name="gaming_mode_dynamic_summary">Oyun uygulamalarını otomatik olarak algılamayı ve eklemeyi dene</string>
+    <!-- PackageListAdapter Strings -->
+    <string name="profile_choose_app">Uygulama Seç</string>
+    <string name="dialog_delete_title">Sil</string>
+    <string name="dialog_delete_message">Seçili öge silinsin mi?</string>
+    <!-- Notifications -->
+    <string name="notification_category">Bildirim</string>
+    <string name="notification_category_summary">Bildirim ayarlarını kişiselleştir</string>
+    <!-- Heads up -->
+    <string name="notification_stat">Durum Çubuğu</string>
+    <string name="heads_up_notifications">Bildirim pencereleri</string>
+    <string name="heads_up_notifications_summary">Açılır durum çubuğu bildirimleri</string>
+    <string name="add_heads_up_package">Uygulama Ekle</string>
+    <string name="heads_up_stoplist_title">Durdurma listesi</string>
+    <string name="add_heads_up_stoplist_summary">Seçili uygulamalar için bildirim pencerelerini kapat</string>
+    <string name="heads_up_blacklist_title">Kara liste</string>
+    <string name="add_heads_up_blacklist_summary">Seçili uygulamalar için kayan bildirimleri kapat</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Zaman aşımı</string>
+    <string name="heads_up_time_out_summary">Bildirm pencereleri <xliff:g id="number">%d</xliff:g> saniye boyunca gösterilir</string>
+    <string name="heads_up_time_out_2sec">2 saniye</string>
+    <string name="heads_up_time_out_4sec">4 saniye</string>
+    <string name="heads_up_time_out_5sec">5 saniye</string>
+    <string name="heads_up_time_out_6sec">6 saniye</string>
+    <string name="heads_up_time_out_8sec">8 saniye</string>
+    <string name="heads_up_time_out_10sec">10 saniye</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Erteleme zamanlayıcısı</string>
+    <string name="heads_up_snooze_summary_one_minute">Bildirim pencereleri kaydırılarak 1 dakika boyunca uygulamadan gelecek olan bildirimler ertelenir</string>
+    <string name="heads_up_snooze_summary">Bildirim pencereleri kaydırılarak <xliff:g id="number">%d</xliff:g> dakika boyunca uygulamalardan gelecek olan bildirimler ertelenir</string>
+    <string name="heads_up_snooze_disabled_summary">Erteleyiciyi devredışı</string>
+    <string name="heads_up_snooze_1min">1 dakika</string>
+    <string name="heads_up_snooze_5min">5 dakika</string>
+    <string name="heads_up_snooze_10min">10 dakika</string>
+    <string name="heads_up_snooze_15min">15 dakika</string>
+    <string name="heads_up_snooze_20min">20 dakika</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Daha az bildirim penceresi</string>
+    <string name="less_boring_heads_up_summary">Sadece telefon, mesajlaşma ve alarm uygulamaları için bildirim pencerelerini göster</string>
+</resources>
