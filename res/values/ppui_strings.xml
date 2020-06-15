@@ -195,4 +195,8 @@
     <string name="less_boring_heads_up_title">Less boring heads up</string>
     <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
 
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+
 </resources>
