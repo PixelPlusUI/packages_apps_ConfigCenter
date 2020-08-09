@@ -87,6 +87,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:key="volte_cc_ic_key"
+        android:title="@string/volte_cc_keys_title" >
+
+    <com.ppui.config.center.preferences.SystemSettingSwitchPreference
+         android:key="show_fourg_icon"
+         android:title="@string/show_fourg_icon_title"
+         android:summary="@string/show_fourg_icon_summary"
+         android:defaultValue="false"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:key="notif_qs_key"
         android:title="@string/notif_qs_keys_title" >
 
