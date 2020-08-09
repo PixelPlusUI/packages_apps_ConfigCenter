@@ -54,6 +54,8 @@
     <string name="navbar_keys_cg_title">Navigation Bar</string>
     <string name="dt_keys_cg_title">Gestures</string>
     <string name="notif_qs_keys_title">Notification</string>
+    <string name="volte_cc_keys_title">VoLTE Icons</string>
+
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Statusbar</string>
     <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
