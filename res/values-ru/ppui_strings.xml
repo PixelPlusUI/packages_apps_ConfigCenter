@@ -17,16 +17,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- App Title -->
     <string name="config_center_title">Пикселайзер</string>
-
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Значение: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">По умолчанию</string>
     <string name="custom_seekbar_default_value_to_set">Значение по умолчанию: <xliff:g id="v">%s</xliff:g>\nУдерживайте для установки</string>
     <string name="custom_seekbar_default_value_is_set">Значение по умолчанию задано</string>
-
     <!-- QS blur -->
     <string name="blur_quicksettings">Размытие за быстрыми настройками</string>
     <string name="blur_quicksettings_subtitle">Размывает фон за быстрыми настройками</string>
@@ -35,7 +32,6 @@
     <string name="qs_blur_intensity_title">Интенсивность размытия</string>
     <string name="qs_blur_intensity_summary">Устанавливает интенсивность/радиус размытия</string>
     <string name="unit_percent">\u0025</string>
-
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Кнопка питания</string>
     <string name="power_menu_title">Меню питания</string>
@@ -44,24 +40,21 @@
     <string name="power_menu_screenrecord_title">Запись экрана</string>
     <string name="power_menu_airplane_title">Режим полёта</string>
     <string name="power_menu_lockdown_title">Блокировка</string>
-
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Расширенная перезагрузка</string>
     <string name="advanced_reboot_summary">Когда устройство разблокировано, в меню питания доступны опции перезагрузки в режим восстановления и в загрузчик</string>
-
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Статусбар/Быстрые настройки</string>
     <string name="navbar_keys_cg_title">Панель навигации</string>
     <string name="dt_keys_cg_title">Жесты</string>
     <string name="notif_qs_keys_title">Уведомления</string>
-
+    <string name="volte_cc_keys_title">Иконка VoLTE</string>
+    <string name="lockscreen_options_category">Экран блокировки</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Статусбар</string>
     <string name="lockscreen_show_status_bar_summary">Отображать строку состояния на экране блокировки</string>
-
     <!-- Navigation Bar -->
     <string name="navigation_bar_invert_layout_title">Инвертировать порядок кнопок</string>
-
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Настройки часов</string>
     <string name="clock_style_category_summary">Часы в строке состояния</string>
@@ -90,30 +83,25 @@
     <string name="clock_date_format">Формат даты</string>
     <string name="clock_date_string_edittext_title">Должен быть в формате даты, например, ММ/дд/гг</string>
     <string name="clock_date_string_edittext_summary">Введите строку</string>
-
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_lockscreen_title">Дважды коснитесь экрана блокировки, чтобы перевести устройство в спящий режим</string>
     <string name="double_tap_sleep_lockscreen_summary">Дважды коснитесь любого места на экране блокировки, чтобы перевести устройство в спящий режим</string>
     <string name="double_tap_sleep_gesture_title">Нажмите два раза для сна на статусбаре</string>
     <string name="double_tap_sleep_gesture_summary">Дважды коснитесь строки состояния, чтобы перевести устройство в спящий режим</string>
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Параметры вибрации при вызове</string>
     <string name="incall_vibrate_connect_title">Вибрировать при подключении</string>
     <string name="incall_vibrate_call_wait_title">Вибрация при ожидании</string>
     <string name="incall_vibrate_disconnect_title">Вибрация при отключении</string>
-
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Фонарик при выключенном экране</string>
     <string name="torch_power_button_gesture_none">Отключено</string>
     <string name="torch_power_button_gesture_dt">Двойное нажатие кнопки питания</string>
     <string name="torch_power_button_gesture_dt_toast">Двойной жест для запуска камеры теперь отключен</string>
     <string name="torch_power_button_gesture_lp">Удержание кнопки питания</string>
-
     <!-- R Notification headers -->
     <string name="notification_headers_title">Показывать заголовки уведомлений</string>
     <string name="notification_headers_summary">Показывать заголовки уведомлений в стиле R (Требуется перезапуск SystemUI)</string>
-
     <!-- Network traffic -->
     <string name="traffic_title">Индикатор сетевого трафика</string>
     <string name="traffic_title_summary">Настройка индикатора сетевого трафика</string>
@@ -126,7 +114,6 @@
     <string name="network_traffic_autohide_threshold_title">Порог отображения сетевой активности (КБ/с)</string>
     <string name="network_traffic_hidearrow">Скрывать стрелки</string>
     <string name="network_traffic_hidearrow_summary">Скрывать стрелки индикатора сетевого трафика</string>
-
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Игровой режим</string>
     <string name="gaming_mode_summary">Настроить параметры Игрового режима</string>
@@ -151,16 +138,13 @@
     <string name="gaming_mode_notifications_all_title">Показать все уведомления</string>
     <string name="gaming_mode_dynamic_title">Динамический режим</string>
     <string name="gaming_mode_dynamic_summary">Пытаться обнаружить и добавить игровые приложения автоматически</string>
-
     <!-- PackageListAdapter Strings -->
     <string name="profile_choose_app">Выбор приложения</string>
     <string name="dialog_delete_title">Удалить</string>
     <string name="dialog_delete_message">Удалить выбранный элемент?</string>
-
     <!-- Notifications -->
     <string name="notification_category">Уведомления</string>
     <string name="notification_category_summary">Настройки всплывающих уведомлений</string>
-
     <!-- Heads up -->
     <string name="notification_stat">Статусбар</string>
     <string name="heads_up_notifications">Всплывающие уведомления</string>
@@ -170,7 +154,6 @@
     <string name="add_heads_up_stoplist_summary">Отключить всплывающие уведомления в этих приложениях</string>
     <string name="heads_up_blacklist_title">Чёрный список</string>
     <string name="add_heads_up_blacklist_summary">Отключить всплывающие уведомления для этих приложений</string>
-
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Тайм-аут</string>
     <string name="heads_up_time_out_summary">Уведомления будут показываться <xliff:g id="number">%d</xliff:g> секунд</string>
@@ -180,7 +163,6 @@
     <string name="heads_up_time_out_6sec">6 секунд</string>
     <string name="heads_up_time_out_8sec">8 секунд</string>
     <string name="heads_up_time_out_10sec">10 секунд</string>
-
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Отложить таймер</string>
     <string name="heads_up_snooze_summary_one_minute">Свайп вверх по всплывающему уведомлению от этого приложения скроет его на одну минуту</string>
@@ -191,9 +173,27 @@
     <string name="heads_up_snooze_10min">10 минут</string>
     <string name="heads_up_snooze_15min">15 минут</string>
     <string name="heads_up_snooze_20min">20 минут</string>
-
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Менее надоедливые всплывающие уведомления</string>
     <string name="less_boring_heads_up_summary">Показывать всплывающие уведомления только для звонков, сообщений и будильника</string>
-
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">Включить кнопку \"Очистить всё\"</string>
+    <string name="enable_clear_all_button_summary">Показывать кнопку вместо текста для очистки всех уведомлений в быстрых настройках</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Управление яркостью</string>
+    <string name="status_bar_toggle_brightness_summary">Изменять яркость, проводя по строке состояния</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показывать значок 4G вместо LTE в строке состояния</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Иконка VoLTE</string>
+    <string name="volte_icon_summary">Показывать значок VoLTE</string>
+    <string name="volte_icon_style_title">Выбрать значок VoLTE</string>
+    <string name="volte_icon_vo">Отображать только Vo значок</string>
+    <string name="volte_icon_volte">Иконка VoLTE</string>
+    <string name="volte_icon_oos">Значок VoLTE в стиле OOS</string>
+    <string name="volte_icon_hd">Значок HD</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Скрыть значок блокировки</string>
+    <string name="hide_lockicon_summary">Скрыть значок блокировки на экране блокировки</string>
 </resources>
