@@ -17,16 +17,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- App Title -->
     <string name="config_center_title">유용한 기능</string>
-
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">값: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">기본값</string>
     <string name="custom_seekbar_default_value_to_set">기본값: <xliff:g id="v">%s</xliff:g>\n길게 눌러서 설정</string>
     <string name="custom_seekbar_default_value_is_set">기본값으로 설정 됨</string>
-
     <!-- QS blur -->
     <string name="blur_quicksettings">빠른 설정 배경 블러</string>
     <string name="blur_quicksettings_subtitle">빠른 설정에 블러 효과 적용</string>
@@ -35,7 +32,6 @@
     <string name="qs_blur_intensity_title">블러 강도</string>
     <string name="qs_blur_intensity_summary">블러 강도 / 반경 설정</string>
     <string name="unit_percent">\u0025</string>
-
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">전원 버튼</string>
     <string name="power_menu_title">전원 메뉴</string>
@@ -44,34 +40,21 @@
     <string name="power_menu_screenrecord_title">화면 녹화</string>
     <string name="power_menu_airplane_title">비행기 모드</string>
     <string name="power_menu_lockdown_title">절전 모드</string>
-
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">고급 전원 메뉴</string>
     <string name="advanced_reboot_summary">잠금이 해제되어 있을 때, 전원 메뉴에 리커버리 및 부트로더로 다시 시작하는 옵션 추가</string>
-
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE 아이콘</string>
-    <string name="volte_icon_summary">VoLTE 아이콘 표시</string>
-    <string name="volte_icon_style_title">VoLTE 아이콘 선택</string>
-    <string name="volte_icon_vo">Vo 전용 아이콘</string>
-    <string name="volte_icon_volte">VoLTE 아이콘</string>
-    <string name="volte_icon_oos">VoLTE OOS 아이콘</string>
-    <string name="volte_icon_hd">HD 아이콘</string>
-
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">상태 표시줄 / 빠른 설정</string>
-    <string name="volte_keys_cg_title">VoLTE 아이콘</string>
     <string name="navbar_keys_cg_title">내비게이션 바</string>
     <string name="dt_keys_cg_title">제스쳐</string>
     <string name="notif_qs_keys_title">알림</string>
-
+    <string name="volte_cc_keys_title">VoLTE Icons</string>
+    <string name="lockscreen_options_category">Lockscreen</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">상태 표시줄</string>
     <string name="lockscreen_show_status_bar_summary">잠금화면에 상태 표시줄을 표시</string>
-
     <!-- Navigation Bar -->
     <string name="navigation_bar_invert_layout_title">레이아웃 반전</string>
-
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">시계 설정</string>
     <string name="clock_style_category_summary">상태 표시줄 시계 변경</string>
@@ -100,30 +83,25 @@
     <string name="clock_date_format">날짜 형식</string>
     <string name="clock_date_string_edittext_title">날짜 형식 변경 예: MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">문자열 입력</string>
-
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_lockscreen_title">잠금 화면에서 두번 두드려 화면 끄기</string>
     <string name="double_tap_sleep_lockscreen_summary">잠금 화면에서 두번 두드려 기기의 화면을 끄기</string>
     <string name="double_tap_sleep_gesture_title">상태 표시줄 두 번 두드려 화면 끄기</string>
     <string name="double_tap_sleep_gesture_summary">상태 표시줄 두 번 두드려 화면을 끄기</string>
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">통화 중 진동 옵션</string>
     <string name="incall_vibrate_connect_title">연결 시 진동</string>
     <string name="incall_vibrate_call_wait_title">전화 대기중일때 진동</string>
     <string name="incall_vibrate_disconnect_title">통화 종료 시 진동</string>
-
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">절전 모드 손전등</string>
     <string name="torch_power_button_gesture_none">비활성화</string>
     <string name="torch_power_button_gesture_dt">전원 버튼 두 번 누르기</string>
     <string name="torch_power_button_gesture_dt_toast">카메라로 이동 제스쳐가 비활성화됨</string>
     <string name="torch_power_button_gesture_lp">전원 버튼 길게 누르기</string>
-
     <!-- R Notification headers -->
     <string name="notification_headers_title">알림 헤더 표시</string>
     <string name="notification_headers_summary">R 스타일 알림 헤더 표시 여부</string>
-
     <!-- Network traffic -->
     <string name="traffic_title">트래픽 표시</string>
     <string name="traffic_title_summary">트래픽 표시 사용자 지정</string>
@@ -136,7 +114,6 @@
     <string name="network_traffic_autohide_threshold_title">네트워크 사용량 자동으로 숨기기 (KB/s)</string>
     <string name="network_traffic_hidearrow">화살표 숨기기</string>
     <string name="network_traffic_hidearrow_summary">네트워크 트래픽 화살표 숨기기</string>
-
     <!-- Gaming mode -->
     <string name="gaming_mode_title">게이밍 모드</string>
     <string name="gaming_mode_summary">게임 모드 설정 사용자 정의</string>
@@ -161,16 +138,13 @@
     <string name="gaming_mode_notifications_all_title">토스트 및 알림 표시</string>
     <string name="gaming_mode_dynamic_title">다이나믹 모드</string>
     <string name="gaming_mode_dynamic_summary">자동으로 게임 앱을 탐지하여 추가</string>
-
     <!-- PackageListAdapter Strings -->
     <string name="profile_choose_app">앱 선택</string>
     <string name="dialog_delete_title">삭제</string>
     <string name="dialog_delete_message">선택된 항목을 삭제하시겠습니까?</string>
-
     <!-- Notifications -->
     <string name="notification_category">알림</string>
     <string name="notification_category_summary">알람 사용자 설정</string>
-
     <!-- Heads up -->
     <string name="notification_stat">상태 표시줄</string>
     <string name="heads_up_notifications">헤드 업</string>
@@ -180,7 +154,6 @@
     <string name="add_heads_up_stoplist_summary">이 앱들에서 헤드업 알림을 사용하지 않음</string>
     <string name="heads_up_blacklist_title">블랙리스트</string>
     <string name="add_heads_up_blacklist_summary">이 앱들에서 헤드업 알림을 사용하지 않음</string>
-
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">시간 초과</string>
     <string name="heads_up_time_out_summary">헤드업 알림은 <xliff:g id="number">%d</xliff:g>초 동안 표시됩니다</string>
@@ -190,7 +163,6 @@
     <string name="heads_up_time_out_6sec">6 초</string>
     <string name="heads_up_time_out_8sec">8 초</string>
     <string name="heads_up_time_out_10sec">10 초</string>
-
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">알림 일시 중지 타이머</string>
     <string name="heads_up_snooze_summary_one_minute">표시된 알림을 쓸어올리면 1분동안 알림을 표시한 앱의 헤드업 알림을 일시 중지합니다</string>
@@ -201,9 +173,27 @@
     <string name="heads_up_snooze_10min">10 분</string>
     <string name="heads_up_snooze_15min">15 분</string>
     <string name="heads_up_snooze_20min">20 분</string>
-
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">덜 지루한 헤드업</string>
     <string name="less_boring_heads_up_summary">전화나 메시지, 알람앱 에서만 헤드업 알림 사용</string>
-
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE 아이콘</string>
+    <string name="volte_icon_summary">VoLTE 아이콘 표시</string>
+    <string name="volte_icon_style_title">VoLTE 아이콘 선택</string>
+    <string name="volte_icon_vo">Vo 전용 아이콘</string>
+    <string name="volte_icon_volte">VoLTE 아이콘</string>
+    <string name="volte_icon_oos">VoLTE OOS 아이콘</string>
+    <string name="volte_icon_hd">HD 아이콘</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
