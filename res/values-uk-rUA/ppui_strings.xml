@@ -48,8 +48,8 @@
     <string name="navbar_keys_cg_title">Навігаційна панель</string>
     <string name="dt_keys_cg_title">Жести</string>
     <string name="notif_qs_keys_title">Повідомлення</string>
-    <string name="volte_cc_keys_title">VoLTE Icons</string>
-    <string name="lockscreen_options_category">Lockscreen</string>
+    <string name="volte_cc_keys_title">Значок VoLTE</string>
+    <string name="lockscreen_options_category">Екран блокування</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Статусбар</string>
     <string name="lockscreen_show_status_bar_summary">Показати рядок стану на екрані блокування</string>
@@ -177,14 +177,14 @@
     <string name="less_boring_heads_up_title">Менше скучних спливаючих сповіщень</string>
     <string name="less_boring_heads_up_summary">Відображати спливаючі сповіщення лише для дзвінків, повідомлень і будильника</string>
     <!-- QS OOS styled dismiss all button -->
-    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
-    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <string name="enable_clear_all_button">Кнопка \"Очистити всі\" в стилі OOS</string>
+    <string name="enable_clear_all_button_summary">Показувати декоративну кнопку замість напису Очистити все для очистки повідомлень</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Керування яскравістю</string>
+    <string name="status_bar_toggle_brightness_summary">Регулювати яскравість екрану рухом пальця по рядку стану</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Значок 4G</string>
+    <string name="show_fourg_icon_summary">Показувати значок 4G замість LTE в рядку стану</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Значок VoLTE</string>
     <string name="volte_icon_summary">Відображати значок VoLTE</string>
@@ -194,6 +194,6 @@
     <string name="volte_icon_oos">Іконка VoLTE з OOS</string>
     <string name="volte_icon_hd">Значок HD</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Приховати значок блокування</string>
+    <string name="hide_lockicon_summary">Приховати значок блокування на екрані блокування</string>
 </resources>
