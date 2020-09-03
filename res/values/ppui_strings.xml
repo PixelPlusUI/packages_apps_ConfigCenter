@@ -55,6 +55,7 @@
     <string name="dt_keys_cg_title">Gestures</string>
     <string name="notif_qs_keys_title">Notification</string>
     <string name="volte_cc_keys_title">VoLTE Icons</string>
+    <string name="lockscreen_options_category">Lockscreen</string>
 
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Statusbar</string>
@@ -217,5 +218,9 @@
     <string name="volte_icon_volte">VoLTE Icon</string>
     <string name="volte_icon_oos">VoLTE OOS Icon</string>
     <string name="volte_icon_hd">HD Icon</string>
+
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 
 </resources>
