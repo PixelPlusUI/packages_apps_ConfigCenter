@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2018 Havoc-OS
+     Copyright (C) 2018 ExtendedUI
+     Copyright (C) 2020 PixelPlusUI
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- App Title -->
+    <string name="config_center_title">Pikselləşdirici</string>
+    <!-- Custom seekbar -->
+    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
+    <string name="custom_seekbar_default_value">Standart</string>
+    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
+    <string name="custom_seekbar_default_value_is_set">Standart ayarlar quraşdırıldı</string>
+    <!-- QS blur -->
+    <string name="blur_quicksettings">Sürətli parametrlər arxasını bulanıqlaşdır</string>
+    <string name="blur_quicksettings_subtitle">Sürətli parametrlərin arxasını bulanıqlaşdırma</string>
+    <string name="qs_blur_alpha_title">Alfa bulanıqlıq</string>
+    <string name="qs_blur_alpha_summary">Blur şəffaflığını təyin edir</string>
+    <string name="qs_blur_intensity_title">Blur intensivliyi</string>
+    <string name="qs_blur_intensity_summary">Blur intensivliyini / radiusunu təyin edir</string>
+    <string name="unit_percent">\u0025</string>
+    <!-- Power menu -->
+    <string name="hardware_keys_power_key_title">Güc düyməsi</string>
+    <string name="power_menu_title">Güc menyusu</string>
+    <string name="power_menu_subtitle">Güc menyusunu fərdiləşdirin</string>
+    <string name="power_menu_screenshot_title">Ekran görüntüsü</string>
+    <string name="power_menu_screenrecord_title">Ekran çəkilişi</string>
+    <string name="power_menu_airplane_title">Uçuş rejimi</string>
+    <string name="power_menu_lockdown_title">Kilidlə</string>
+    <!-- Advanced restart options -->
+    <string name="advanced_reboot_title">Geniş yenidən başlatma</string>
+    <string name="advanced_reboot_summary">Kilidi açılanda, bərpa etmə və ya yükləmə sisteminə yenidən başlamaq üçün güc menyusuna seçimlər daxil edin</string>
+    <!-- Titles for new preference categories -->
+    <string name="statusbar_qs_keys_title">Bildiriş çubuğu/sürətli parametrlər</string>
+    <string name="navbar_keys_cg_title">Naviqasiya paneli</string>
+    <string name="dt_keys_cg_title">Hərəkətlər</string>
+    <string name="notif_qs_keys_title">Bildirişlər</string>
+    <string name="volte_cc_keys_title">VoLTE Icons</string>
+    <string name="lockscreen_options_category">Lockscreen</string>
+    <!-- Show statusbar on lockscreen -->
+    <string name="lockscreen_show_status_bar_title">Status paneli</string>
+    <string name="lockscreen_show_status_bar_summary">Kilid ekranında status çubuğunu göstərin</string>
+    <!-- Navigation Bar -->
+    <string name="navigation_bar_invert_layout_title">Düzülüşü tərs çevir</string>
+    <!-- Statusbar Clock -->
+    <string name="clock_style_category_title">Saat tənzimləmələri</string>
+    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
+    <string name="status_bar_clock_title">Clock settings</string>
+    <string name="status_bar_clock_show">Show clock and date</string>
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+    <string name="clock_seconds_display">Show seconds</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_lockscreen_title">Double tap to sleep on lockscreen</string>
+    <string name="double_tap_sleep_lockscreen_summary">Double tap anywhere on the lockscreen to put phone to sleep</string>
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep on statusbar</string>
+    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+    <!-- Incall vibrate options -->
+    <string name="incall_vibration_category">In-call vibration options</string>
+    <string name="incall_vibrate_connect_title">Vibrate on connect</string>
+    <string name="incall_vibrate_call_wait_title">Vibrate on call waiting</string>
+    <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
+    <!-- Torch Power button gestures -->
+    <string name="torch_power_button_gesture_title">Screen off torch</string>
+    <string name="torch_power_button_gesture_none">Disabled</string>
+    <string name="torch_power_button_gesture_dt">Double tap power button</string>
+    <string name="torch_power_button_gesture_dt_toast">Jump to camera gesture is now disabled</string>
+    <string name="torch_power_button_gesture_lp">Long press power button</string>
+    <!-- R Notification headers -->
+    <string name="notification_headers_title">Show notification headers</string>
+    <string name="notification_headers_summary">Whether to show R style notification headers (Requires a SystemUI restart)</string>
+    <!-- Network traffic -->
+    <string name="traffic_title">Traffic indicators</string>
+    <string name="traffic_title_summary">Customize network traffic indicators</string>
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="network_traffic_type">Select net activity type</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Show net activity in statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Net activity autohide threshold (KB/s)</string>
+    <string name="network_traffic_hidearrow">Hide arrows</string>
+    <string name="network_traffic_hidearrow_summary">Hide the network traffic indicator arrows</string>
+    <!-- Gaming mode -->
+    <string name="gaming_mode_title">Gaming Mode</string>
+    <string name="gaming_mode_summary">Customize gaming mode preferences</string>
+    <string name="gaming_mode_app_picker_title">Automatically turn on for these apps</string>
+    <string name="add_gaming_mode_package_title">Add apps for Gaming mode</string>
+    <string name="add_gaming_mode_package_summary">Gaming mode will turn on automatically when these apps are opened and turn off when they are closed</string>
+    <string name="gaming_mode_headsup_title">Block notifications</string>
+    <string name="gaming_mode_headsup_summary">Block all headsup messages except calls</string>
+    <string name="gaming_mode_hardware_keys_title">Lock buttons</string>
+    <string name="gaming_mode_hardware_keys_summary">Disable hardware buttons when Gaming mode is turned on</string>
+    <string name="gaming_mode_brightness_title">Disable automatic brightness</string>
+    <string name="gaming_mode_brightness_summary">Lock screen brightness when Gaming mode is turned on</string>
+    <string name="gaming_mode_ringer_title">Ringer in gaming mode</string>
+    <string name="gaming_mode_ringer_off_title">Do not change</string>
+    <string name="gaming_mode_ringer_vibrate_title">Vibrate</string>
+    <string name="gaming_mode_ringer_dnd_title">Do Not Disturb</string>
+    <string name="gaming_mode_ringer_silent_title">Silent</string>
+    <string name="gaming_mode_notifications_title">Gaming mode indication</string>
+    <string name="gaming_mode_notifications_off_title">Disabled</string>
+    <string name="gaming_mode_notifications_notif_title">Show notification</string>
+    <string name="gaming_mode_notifications_toast_title">Show toasts</string>
+    <string name="gaming_mode_notifications_all_title">Show toasts and notification</string>
+    <string name="gaming_mode_dynamic_title">Dynamic mode</string>
+    <string name="gaming_mode_dynamic_summary">Try detecting and adding gaming apps automatically</string>
+    <!-- PackageListAdapter Strings -->
+    <string name="profile_choose_app">Choose app</string>
+    <string name="dialog_delete_title">Delete</string>
+    <string name="dialog_delete_message">Remove selected item?</string>
+    <!-- Notifications -->
+    <string name="notification_category">Notification</string>
+    <string name="notification_category_summary">Customize your Notification Settings</string>
+    <!-- Heads up -->
+    <string name="notification_stat">Statusbar</string>
+    <string name="heads_up_notifications">Heads Up</string>
+    <string name="heads_up_notifications_summary">Pop up statusbar notifications</string>
+    <string name="add_heads_up_package">Add app</string>
+    <string name="heads_up_stoplist_title">Stoplist</string>
+    <string name="add_heads_up_stoplist_summary">Disable heads up in these applications</string>
+    <string name="heads_up_blacklist_title">Blacklist</string>
+    <string name="add_heads_up_blacklist_summary">Disable heads up for these applications</string>
+    <!-- Heads up timeout -->
+    <string name="heads_up_time_out_title">Time out</string>
+    <string name="heads_up_time_out_summary">Peeking notifications will show for <xliff:g id="number">%d</xliff:g> seconds</string>
+    <string name="heads_up_time_out_2sec">2 seconds</string>
+    <string name="heads_up_time_out_4sec">4 seconds</string>
+    <string name="heads_up_time_out_5sec">5 seconds</string>
+    <string name="heads_up_time_out_6sec">6 seconds</string>
+    <string name="heads_up_time_out_8sec">8 seconds</string>
+    <string name="heads_up_time_out_10sec">10 seconds</string>
+    <!-- Heads up snooze -->
+    <string name="heads_up_snooze_title">Snooze timer</string>
+    <string name="heads_up_snooze_summary_one_minute">Swiping up on peeking notifications will snooze heads up from that application for 1 minute</string>
+    <string name="heads_up_snooze_summary">Swiping up on peeking notifications will snooze heads up from that application for <xliff:g id="number">%d</xliff:g> minutes</string>
+    <string name="heads_up_snooze_disabled_summary">Snooze timer is disabled</string>
+    <string name="heads_up_snooze_1min">1 minute</string>
+    <string name="heads_up_snooze_5min">5 minutes</string>
+    <string name="heads_up_snooze_10min">10 minutes</string>
+    <string name="heads_up_snooze_15min">15 minutes</string>
+    <string name="heads_up_snooze_20min">20 minutes</string>
+    <!-- Heads up options -->
+    <string name="less_boring_heads_up_title">Less boring heads up</string>
+    <string name="less_boring_heads_up_summary">Show heads up only for dialer, messaging and alarm app</string>
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE simgəsi</string>
+    <string name="volte_icon_summary">Ekran VoLTE simgəsi</string>
+    <string name="volte_icon_style_title">VoLTE simgəsini seç</string>
+    <string name="volte_icon_vo">Vo sadəcə simgə</string>
+    <string name="volte_icon_volte">VoLTE simgəsi</string>
+    <string name="volte_icon_oos">VoLTE xidmət xarici simgəsi</string>
+    <string name="volte_icon_hd">HD simgəsi</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+</resources>
