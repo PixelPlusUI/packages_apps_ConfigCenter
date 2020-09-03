@@ -17,16 +17,13 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-
     <!-- App Title -->
     <string name="config_center_title">O Pixelizador</string>
-
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value">Valor: <xliff:g id="v">%s</xliff:g></string>
     <string name="custom_seekbar_default_value">Padrão</string>
     <string name="custom_seekbar_default_value_to_set">Valor padrão: <xliff:g id ="v">%s</xliff:g>\nToque longo para definir</string>
     <string name="custom_seekbar_default_value_is_set">Valor padrão definido</string>
-
     <!-- QS blur -->
     <string name="blur_quicksettings">Desfoque no fundo das configurações rápidas</string>
     <string name="blur_quicksettings_subtitle">Desfocar o fundo por trás das configurações rápidas</string>
@@ -35,7 +32,6 @@
     <string name="qs_blur_intensity_title">Intensidade do desfoque</string>
     <string name="qs_blur_intensity_summary">Define a intensidade/raio do desfoque</string>
     <string name="unit_percent">\u0025</string>
-
     <!-- Power menu -->
     <string name="hardware_keys_power_key_title">Botão de energia</string>
     <string name="power_menu_title">Menu de energia</string>
@@ -44,34 +40,21 @@
     <string name="power_menu_screenrecord_title">Gravador de tela</string>
     <string name="power_menu_airplane_title">Modo avião</string>
     <string name="power_menu_lockdown_title">Bloqueio total</string>
-
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Reinicialização avançada</string>
     <string name="advanced_reboot_summary">Quando desbloqueado, inclui opções no menu de energia para reiniciar no de recuperação ou bootloader</string>
-
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">Ícone VoLTE</string>
-    <string name="volte_icon_summary">Mostrar ícone VoLTE</string>
-    <string name="volte_icon_style_title">Selecione o ícone VoLTE</string>
-    <string name="volte_icon_vo">Apenas ícone Vo</string>
-    <string name="volte_icon_volte">Ícone VoLTE</string>
-    <string name="volte_icon_oos">Ícone VoLTE OOS</string>
-    <string name="volte_icon_hd">Ícone HD</string>
-
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Barra de status</string>
-    <string name="volte_keys_cg_title">Ícone VoLTE</string>
     <string name="navbar_keys_cg_title">Barra de navegação</string>
     <string name="dt_keys_cg_title">Gestos</string>
     <string name="notif_qs_keys_title">Notificação</string>
-
+    <string name="volte_cc_keys_title">VoLTE Icons</string>
+    <string name="lockscreen_options_category">Lockscreen</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Barra de status</string>
     <string name="lockscreen_show_status_bar_summary">Mostrar a barra de status na tela de bloqueio</string>
-
     <!-- Navigation Bar -->
     <string name="navigation_bar_invert_layout_title">Inverter botões</string>
-
     <!-- Statusbar Clock -->
     <string name="clock_style_category_title">Configurações do relógio</string>
     <string name="clock_style_category_summary">Sintonizador da barra de status</string>
@@ -100,30 +83,25 @@
     <string name="clock_date_format">Formato da data</string>
     <string name="clock_date_string_edittext_title">Deve estar em formato de data, por exemplo: MM/dd/yy</string>
     <string name="clock_date_string_edittext_summary">Insira os caracteres</string>
-
     <!-- Double Tap gestures -->
     <string name="double_tap_sleep_lockscreen_title">Toque duplo para desligar a tela na tela de bloqueio</string>
     <string name="double_tap_sleep_lockscreen_summary">Toque duas vezes em qualquer lugar na tela de bloqueio para desligar a tela</string>
     <string name="double_tap_sleep_gesture_title">Toque duplo na barra de status para desligar</string>
     <string name="double_tap_sleep_gesture_summary">Toque duas vezes na barra de status para desligar a tela</string>
-
     <!-- Incall vibrate options -->
     <string name="incall_vibration_category">Opções de vibração na chamada</string>
     <string name="incall_vibrate_connect_title">Vibrar ao atender</string>
     <string name="incall_vibrate_call_wait_title">Vibrar ao receber uma chamada em espera</string>
     <string name="incall_vibrate_disconnect_title">Vibrar ao desligar</string>
-
     <!-- Torch Power button gestures -->
     <string name="torch_power_button_gesture_title">Lanterna com a tela desligada</string>
     <string name="torch_power_button_gesture_none">Desativado</string>
     <string name="torch_power_button_gesture_dt">Toque duplo no botão ligar/desligar</string>
     <string name="torch_power_button_gesture_dt_toast">Ir para o gesto da câmera agora está desativado</string>
     <string name="torch_power_button_gesture_lp">Toque longo no botão liga/desliga</string>
-
     <!-- R Notification headers -->
     <string name="notification_headers_title">Mostrar notificações</string>
     <string name="notification_headers_summary">Mostrar cabeçalhos de notificação no estilo android R (Necessita reinicialização da SystemUI)</string>
-
     <!-- Network traffic -->
     <string name="traffic_title">Indicador de tráfego de rede</string>
     <string name="traffic_title_summary">Personalizar indicadores de tráfego de rede</string>
@@ -136,7 +114,6 @@
     <string name="network_traffic_autohide_threshold_title">Limite mínimo para ocultar automaticamente a atividade de rede (KB/s)</string>
     <string name="network_traffic_hidearrow">Ocultar setas</string>
     <string name="network_traffic_hidearrow_summary">Ocultar as setas dos indicadores de tráfego</string>
-
     <!-- Gaming mode -->
     <string name="gaming_mode_title">Modo Jogo</string>
     <string name="gaming_mode_summary">Personalizar as preferências do modo jogo</string>
@@ -161,16 +138,13 @@
     <string name="gaming_mode_notifications_all_title">Mostrar alertas e notificações</string>
     <string name="gaming_mode_dynamic_title">Modo dinâmico</string>
     <string name="gaming_mode_dynamic_summary">Tentar detectar e adicionar jogos automaticamente</string>
-
     <!-- PackageListAdapter Strings -->
     <string name="profile_choose_app">Escolher o aplicativo</string>
     <string name="dialog_delete_title">Deletar</string>
     <string name="dialog_delete_message">Remover ítem selecionado?</string>
-
     <!-- Notifications -->
     <string name="notification_category">Notificação</string>
     <string name="notification_category_summary">Personalizar as configurações de notificação</string>
-
     <!-- Heads up -->
     <string name="notification_stat">Barra de status</string>
     <string name="heads_up_notifications">Notificações flutuantes</string>
@@ -180,7 +154,6 @@
     <string name="add_heads_up_stoplist_summary">Desativar notificações flutuantes nesses aplicativos</string>
     <string name="heads_up_blacklist_title">Lista negra</string>
     <string name="add_heads_up_blacklist_summary">Desativar notificações flutuantes desses aplicativos</string>
-
     <!-- Heads up timeout -->
     <string name="heads_up_time_out_title">Tempo limite</string>
     <string name="heads_up_time_out_summary">Mostrar notificação por <xliff:g id="number">%d</xliff:g> segundos</string>
@@ -190,7 +163,6 @@
     <string name="heads_up_time_out_6sec">6 segundos</string>
     <string name="heads_up_time_out_8sec">8 segundos</string>
     <string name="heads_up_time_out_10sec">10 segundos</string>
-
     <!-- Heads up snooze -->
     <string name="heads_up_snooze_title">Silenciar temporariamente</string>
     <string name="heads_up_snooze_summary_one_minute">Deslizar sobre alguma notificação vai silenciar as notificações flutuantes desse aplicativo por 1 minuto</string>
@@ -201,9 +173,27 @@
     <string name="heads_up_snooze_10min">10 minutos</string>
     <string name="heads_up_snooze_15min">15 minutos</string>
     <string name="heads_up_snooze_20min">20 minutos</string>
-
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Notificações flutuantes menos irritantes</string>
     <string name="less_boring_heads_up_summary">Mostrar notificações flutuantes apenas para chamadas, apps de mensagens e alarmes</string>
-
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">Ícone VoLTE</string>
+    <string name="volte_icon_summary">Mostrar ícone VoLTE</string>
+    <string name="volte_icon_style_title">Selecione o ícone VoLTE</string>
+    <string name="volte_icon_vo">Apenas ícone Vo</string>
+    <string name="volte_icon_volte">Ícone VoLTE</string>
+    <string name="volte_icon_oos">Ícone VoLTE OOS</string>
+    <string name="volte_icon_hd">Ícone HD</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
