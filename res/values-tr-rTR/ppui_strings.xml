@@ -3,10 +3,13 @@
      Copyright (C) 2018 Havoc-OS
      Copyright (C) 2018 ExtendedUI
      Copyright (C) 2020 PixelPlusUI
+
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
+
           http://www.apache.org/licenses/LICENSE-2.0
+
      Unless required by applicable law or agreed to in writing, software
      distributed under the License is distributed on an "AS IS" BASIS,
      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
@@ -40,20 +43,13 @@
     <!-- Advanced restart options -->
     <string name="advanced_reboot_title">Gelişmiş yeniden başlatma</string>
     <string name="advanced_reboot_summary">Kilit açıldığında kurtarma veya önyükleme modunda yeniden başlatmak için güç menüsüne seçenekler ekler</string>
-    <!-- Show VoLTE icon on statusbar -->
-    <string name="volte_icon_title">VoLTE simgesi</string>
-    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
-    <string name="volte_icon_style_title">VoLTE simgesini seçin</string>
-    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
-    <string name="volte_icon_volte">VoLTE simgesi</string>
-    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
-    <string name="volte_icon_hd">HD simgesi</string>
     <!-- Titles for new preference categories -->
     <string name="statusbar_qs_keys_title">Durum çubuğu/HA</string>
-    <string name="volte_keys_cg_title">VoLTE simgesi</string>
     <string name="navbar_keys_cg_title">Gezinme çubuğu</string>
     <string name="dt_keys_cg_title">Hareketler</string>
     <string name="notif_qs_keys_title">Bildirim</string>
+    <string name="volte_cc_keys_title">VoLTE Icons</string>
+    <string name="lockscreen_options_category">Lockscreen</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Durum Çubuğu</string>
     <string name="lockscreen_show_status_bar_summary">Kilit ekranında durum çubuğunu göster</string>
@@ -180,4 +176,24 @@
     <!-- Heads up options -->
     <string name="less_boring_heads_up_title">Daha az bildirim penceresi</string>
     <string name="less_boring_heads_up_summary">Sadece telefon, mesajlaşma ve alarm uygulamaları için bildirim pencerelerini göster</string>
+    <!-- QS OOS styled dismiss all button -->
+    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
+    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <!-- Brightness control -->
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <!-- 4G icon -->
+    <string name="show_fourg_icon_title">4G icon</string>
+    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <!-- Show VoLTE icon on statusbar -->
+    <string name="volte_icon_title">VoLTE simgesi</string>
+    <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
+    <string name="volte_icon_style_title">VoLTE simgesini seçin</string>
+    <string name="volte_icon_vo">Yalnızca Vo Simgesi</string>
+    <string name="volte_icon_volte">VoLTE simgesi</string>
+    <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
+    <string name="volte_icon_hd">HD simgesi</string>
+    <!-- Lock icon -->
+    <string name="hide_lockicon_title">Hide lock icon</string>
+    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
 </resources>
