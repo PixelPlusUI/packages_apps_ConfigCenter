@@ -18,49 +18,49 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="config_center_title">The Pixelizer</string>
+    <string name="config_center_title">A Pixelizer</string>
     <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
+    <string name="custom_seekbar_value"><xliff:g id="v">%s</xliff:g> értékű</string>
+    <string name="custom_seekbar_default_value">Alapértelmezett</string>
+    <string name="custom_seekbar_default_value_to_set">Alapértelmezetten <xliff:g id="v">%s</xliff:g> értékű\nÉrintse meg a beállításhoz</string>
+    <string name="custom_seekbar_default_value_is_set">Alapértelmezett érték beállítva</string>
     <!-- QS blur -->
-    <string name="blur_quicksettings">Blur behind quick settings</string>
-    <string name="blur_quicksettings_subtitle">Blurs background behind QS</string>
-    <string name="qs_blur_alpha_title">Blur alpha</string>
-    <string name="qs_blur_alpha_summary">Sets the blur transparency</string>
-    <string name="qs_blur_intensity_title">Blur intensity</string>
-    <string name="qs_blur_intensity_summary">Sets the blur intensity/radius</string>
+    <string name="blur_quicksettings">Homályosított gyorsbeállítások</string>
+    <string name="blur_quicksettings_subtitle">A háttér elmosása a gyors beállítás mögött</string>
+    <string name="qs_blur_alpha_title">Alfa elmosása</string>
+    <string name="qs_blur_alpha_summary">Beállítja a elmosás átlátszóságát</string>
+    <string name="qs_blur_intensity_title">Elmosódás intenzitása</string>
+    <string name="qs_blur_intensity_summary">Beállítja az elmosódás intenzitását / sugarát</string>
     <string name="unit_percent">\u0025</string>
     <!-- Power menu -->
-    <string name="hardware_keys_power_key_title">Power button</string>
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_subtitle">Customize power menu</string>
-    <string name="power_menu_screenshot_title">Screenshot</string>
-    <string name="power_menu_screenrecord_title">Screenrecord</string>
-    <string name="power_menu_airplane_title">Airplane mode</string>
-    <string name="power_menu_lockdown_title">Lockdown</string>
+    <string name="hardware_keys_power_key_title">Bekapcsoló gomb</string>
+    <string name="power_menu_title">Kikapcsoló menü</string>
+    <string name="power_menu_subtitle">Kikapcsolási menü konfigurálása</string>
+    <string name="power_menu_screenshot_title">Képernyőmentés</string>
+    <string name="power_menu_screenrecord_title">Képernyőfelvétel</string>
+    <string name="power_menu_airplane_title">Repülőgép üzemmód</string>
+    <string name="power_menu_lockdown_title">Lezárás</string>
     <!-- Advanced restart options -->
-    <string name="advanced_reboot_title">Advanced restart</string>
-    <string name="advanced_reboot_summary">When unlocked, include options in the power menu for restarting into recovery or bootloader</string>
+    <string name="advanced_reboot_title">Speciális újraindítás</string>
+    <string name="advanced_reboot_summary">Feloldott kijelzőnél a Recovery és a Bootloader újraindítási mód is jelenjen meg a kikapcsoló menüben</string>
     <!-- Titles for new preference categories -->
-    <string name="statusbar_qs_keys_title">Status bar/QS</string>
-    <string name="navbar_keys_cg_title">Navigation Bar</string>
-    <string name="dt_keys_cg_title">Gestures</string>
-    <string name="notif_qs_keys_title">Notification</string>
-    <string name="volte_cc_keys_title">VoLTE Icons</string>
-    <string name="lockscreen_options_category">Lockscreen</string>
+    <string name="statusbar_qs_keys_title">Állapotsor</string>
+    <string name="navbar_keys_cg_title">Navigációs sáv</string>
+    <string name="dt_keys_cg_title">Gesztusok</string>
+    <string name="notif_qs_keys_title">Értesítés</string>
+    <string name="volte_cc_keys_title">VoLTE Ikonok</string>
+    <string name="lockscreen_options_category">Zárképernyő</string>
     <!-- Show statusbar on lockscreen -->
-    <string name="lockscreen_show_status_bar_title">Statusbar</string>
-    <string name="lockscreen_show_status_bar_summary">Show statusbar on the lockscreen</string>
+    <string name="lockscreen_show_status_bar_title">Állapotsor</string>
+    <string name="lockscreen_show_status_bar_summary">Mutassa meg az állapotsort a zárképernyőn</string>
     <!-- Navigation Bar -->
-    <string name="navigation_bar_invert_layout_title">Invert layout</string>
+    <string name="navigation_bar_invert_layout_title">Fordított elrendezés</string>
     <!-- Statusbar Clock -->
-    <string name="clock_style_category_title">Clock Settings</string>
-    <string name="clock_style_category_summary">Statusbar Clock Tuner</string>
-    <string name="status_bar_clock_title">Clock settings</string>
-    <string name="status_bar_clock_show">Show clock and date</string>
-    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="clock_style_category_title">Óra beállítások</string>
+    <string name="clock_style_category_summary">Az állapotsori óra hangolása</string>
+    <string name="status_bar_clock_title">Az Óra beállításai</string>
+    <string name="status_bar_clock_show">Óra és dátum megjelenítése</string>
+    <string name="status_bar_clock_style_title">Az Óra stílusa</string>
     <string name="status_bar_clock_style_right">Right</string>
     <string name="status_bar_clock_style_center">Center</string>
     <string name="status_bar_clock_style_left">Left</string>
