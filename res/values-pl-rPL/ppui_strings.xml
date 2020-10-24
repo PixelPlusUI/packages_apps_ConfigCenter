@@ -48,8 +48,8 @@
     <string name="navbar_keys_cg_title">Pasek nawigacji</string>
     <string name="dt_keys_cg_title">Gesty</string>
     <string name="notif_qs_keys_title">Powiadomienie</string>
-    <string name="volte_cc_keys_title">VoLTE Icons</string>
-    <string name="lockscreen_options_category">Lockscreen</string>
+    <string name="volte_cc_keys_title">Ikona VoLTE</string>
+    <string name="lockscreen_options_category">Ekran Blokady</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Pasek stanu</string>
     <string name="lockscreen_show_status_bar_summary">Pokaż pasek stanu na ekranie blokady</string>
@@ -177,14 +177,14 @@
     <string name="less_boring_heads_up_title">Mniej wyskakujących powiadomień</string>
     <string name="less_boring_heads_up_summary">Pokaż wyskakujące powiadomienia tylko dla dialera, wiadomości i alarmu</string>
     <!-- QS OOS styled dismiss all button -->
-    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
-    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <string name="enable_clear_all_button">Przycisk wyczyść wszystkie style OOS</string>
+    <string name="enable_clear_all_button_summary">Pokaż przycisk wyczyszczenia wszystkich powiadomień w szybkich ustawieniach zamiast tekstu</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Kontrola jasności</string>
+    <string name="status_bar_toggle_brightness_summary">Kontroluj jasność przesuwając palcem po pasku statusu</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">Ikona 4G</string>
+    <string name="show_fourg_icon_summary">Wyświetl ikonę 4G zamiast ikony sygnału LTE</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE</string>
     <string name="volte_icon_summary">Wyświetl ikonę VoLTE</string>
@@ -194,6 +194,6 @@
     <string name="volte_icon_oos">Ikona VoLTE OSS</string>
     <string name="volte_icon_hd">Ikona HD</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Ukryj ikonę kłódki</string>
+    <string name="hide_lockicon_summary">Ukryj ikonę kłódki na ekranie blokady</string>
 </resources>
