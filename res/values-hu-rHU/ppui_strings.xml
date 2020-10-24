@@ -18,7 +18,7 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
     <!-- App Title -->
-    <string name="config_center_title">A Pixelizer</string>
+    <string name="config_center_title">Pixelizer</string>
     <!-- Custom seekbar -->
     <string name="custom_seekbar_value"><xliff:g id="v">%s</xliff:g> értékű</string>
     <string name="custom_seekbar_default_value">Alapértelmezett</string>
@@ -192,8 +192,8 @@
     <string name="volte_icon_vo">Csak Vo Ikon</string>
     <string name="volte_icon_volte">VoLTE Ikon</string>
     <string name="volte_icon_oos">VoLTE OOS Ikon</string>
-    <string name="volte_icon_hd">HD Icon</string>
+    <string name="volte_icon_hd">HD Ikon</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Zár elrejtése ikon</string>
+    <string name="hide_lockicon_summary">Zár ikon elrejtése a zárképernyőn</string>
 </resources>
