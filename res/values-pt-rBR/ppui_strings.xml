@@ -178,12 +178,12 @@
     <string name="less_boring_heads_up_summary">Mostrar notificações flutuantes apenas para chamadas, apps de mensagens e alarmes</string>
     <!-- QS OOS styled dismiss all button -->
     <string name="enable_clear_all_button">Botão limpar tudo no estilo OOS</string>
-    <string name="enable_clear_all_button_summary">Mostrar botão para limpar todas as notificações nas configurações rápidas em vez do texto padrão um</string>
+    <string name="enable_clear_all_button_summary">Mostrar botão para limpar todas as notificações nas configurações rápidas em vez do texto padrão</string>
     <!-- Brightness control -->
     <string name="status_bar_toggle_brightness">Controle de brilho</string>
     <string name="status_bar_toggle_brightness_summary">Ajuste o brilho deslizando através da barra de status</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">Icone 4G</string>
+    <string name="show_fourg_icon_title">Ìcone 4G</string>
     <string name="show_fourg_icon_summary">Exibir ícone 4G no ícone de sinal em vez LTE</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">Ícone VoLTE</string>
