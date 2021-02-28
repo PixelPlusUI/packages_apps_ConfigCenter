@@ -48,8 +48,8 @@
     <string name="navbar_keys_cg_title">Gezinme çubuğu</string>
     <string name="dt_keys_cg_title">Hareketler</string>
     <string name="notif_qs_keys_title">Bildirim</string>
-    <string name="volte_cc_keys_title">VoLTE Icons</string>
-    <string name="lockscreen_options_category">Lockscreen</string>
+    <string name="volte_cc_keys_title">VoLTE simgeleri</string>
+    <string name="lockscreen_options_category">Kilit Ekranı</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Durum Çubuğu</string>
     <string name="lockscreen_show_status_bar_summary">Kilit ekranında durum çubuğunu göster</string>
@@ -177,14 +177,14 @@
     <string name="less_boring_heads_up_title">Daha az bildirim penceresi</string>
     <string name="less_boring_heads_up_summary">Sadece telefon, mesajlaşma ve alarm uygulamaları için bildirim pencerelerini göster</string>
     <!-- QS OOS styled dismiss all button -->
-    <string name="enable_clear_all_button">OOS Style Clear All Button</string>
-    <string name="enable_clear_all_button_summary">Show clear all notifications button in quick settings instead of default text one</string>
+    <string name="enable_clear_all_button">OOS stili hepsini temizle butonu</string>
+    <string name="enable_clear_all_button_summary">Hızlı ayarlarda Tümünü temizle metni yerine simge göster</string>
     <!-- Brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Parlaklık kontrolü</string>
+    <string name="status_bar_toggle_brightness_summary">Durum çubuğunda kaydırarak parlaklığı ayarlayın</string>
     <!-- 4G icon -->
-    <string name="show_fourg_icon_title">4G icon</string>
-    <string name="show_fourg_icon_summary">Display 4G icon in signal icon instead LTE</string>
+    <string name="show_fourg_icon_title">4G simgesi</string>
+    <string name="show_fourg_icon_summary">LTE yerine 4G simgesini görüntüle</string>
     <!-- Show VoLTE icon on statusbar -->
     <string name="volte_icon_title">VoLTE simgesi</string>
     <string name="volte_icon_summary">VoLTE simgesini görüntüle</string>
@@ -194,6 +194,6 @@
     <string name="volte_icon_oos">OOS VoLTE Simgesi</string>
     <string name="volte_icon_hd">HD simgesi</string>
     <!-- Lock icon -->
-    <string name="hide_lockicon_title">Hide lock icon</string>
-    <string name="hide_lockicon_summary">Hide the lock icon on lockscreen</string>
+    <string name="hide_lockicon_title">Kilit simgesini gizle</string>
+    <string name="hide_lockicon_summary">Kilit ekranında kilit simgesini gizle</string>
 </resources>
