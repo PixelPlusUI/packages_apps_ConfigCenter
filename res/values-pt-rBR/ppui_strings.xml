@@ -48,7 +48,7 @@
     <string name="navbar_keys_cg_title">Barra de navegação</string>
     <string name="dt_keys_cg_title">Gestos</string>
     <string name="notif_qs_keys_title">Notificação</string>
-    <string name="volte_cc_keys_title">Ícone VoLTE</string>
+    <string name="volte_cc_keys_title">Ícones VoLTE</string>
     <string name="lockscreen_options_category">Tela de bloqueio</string>
     <!-- Show statusbar on lockscreen -->
     <string name="lockscreen_show_status_bar_title">Barra de status</string>
